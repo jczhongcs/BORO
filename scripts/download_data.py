@@ -128,7 +128,13 @@ def _safe_extract_zip(archive: Path, destination: Path, dry_run: bool) -> None:
 
 
 def _dataset_ready(dataset_dir: Path) -> bool:
-    return (dataset_dir / "corpus.jsonl").is_file() and (dataset_dir / "queries.jsonl").is_file()
+    qrels_dir = dataset_dir / "qrels"
+    return (
+        (dataset_dir / "corpus.jsonl").is_file()
+        and (dataset_dir / "queries.jsonl").is_file()
+        and qrels_dir.is_dir()
+        and any(qrels_dir.glob("*.tsv"))
+    )
 
 
 def download_beir(
