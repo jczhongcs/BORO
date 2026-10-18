@@ -1,0 +1,25 @@
+# BORO dense retrieval experiments.
+# The CUDA entries match the documented PyTorch 2.4.1 + CUDA 12.1 setup.
+name: boro-ir
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.10
+  - numpy=1.24.4
+  - pandas=2.0.3
+  - scipy=1.13.1
+  - scikit-learn=1.5.2
+  - pytorch=2.4.1
+  - pytorch-cuda=12.1
+  - faiss-cpu=1.8.0
+  - pip
+  - pip:
+      - transformers==4.46.3
+      - rank_bm25==0.2.2
+      - pytrec_eval==0.5.10
+      - pyyaml==6.0.1
+      - openpyxl==3.1.5
+      - tqdm==4.66.5

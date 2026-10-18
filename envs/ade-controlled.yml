@@ -1,0 +1,20 @@
+# BORO ADE and controlled experiments.
+# Versions follow docs/reproducibility.md and the validated reference environment.
+name: boro-ade-controlled
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=2.2.2
+  - scikit-learn=1.5.1
+  - joblib=1.4.2
+  - pip
+  - pip:
+      - torch==2.8.0
+      - matplotlib==3.9.2
+      - pillow==10.4.0
+      - pyyaml==6.0.1
+      - openpyxl==3.1.5
