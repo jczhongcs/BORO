@@ -1,0 +1,9 @@
+{
+  "weight_calls": 40400,
+  "weight_elements": 3491504,
+  "floor_active_elements": 0,
+  "scale_batches": 20200,
+  "scale_sum": 80800.0,
+  "scale_at_min": 0,
+  "scale_at_max": 20200
+}

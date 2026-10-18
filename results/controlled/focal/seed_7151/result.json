@@ -1,0 +1,60 @@
+{
+  "batch_size": 256,
+  "data_sha256": "f6b979e8d822ec17978f87b3ef62241b6f435a647b0ebc81b20fa8d120b9cc5a",
+  "dataset_path": "data/processed/controlled/seed_7151.npz",
+  "eval_every": 5,
+  "evaluation_targets": [
+    0.95
+  ],
+  "final_test_metrics": {
+    "accepted_at_p95": 62,
+    "average_precision": 0.7601736593042456,
+    "frontier_percentile_p95": 0.0020334011133704456,
+    "precision_at_p95": 0.9516129032258065,
+    "r_at_p95": 0.01014268523293794
+  },
+  "final_validation_metrics": {
+    "accepted_at_p95": 409,
+    "average_precision": 0.772851007042839,
+    "frontier_percentile_p95": 0.020401020051002552,
+    "precision_at_p95": 0.9511002444987775,
+    "r_at_p95": 0.09569495694956949
+  },
+  "fixed_horizon_primary": true,
+  "initial_mechanism": null,
+  "initial_test_metrics": {
+    "accepted_at_p95": 0,
+    "average_precision": 0.18683714106810603,
+    "frontier_percentile_p95": 0.0,
+    "precision_at_p95": 0.0,
+    "r_at_p95": 0.0
+  },
+  "initial_validation_metrics": {
+    "accepted_at_p95": 0,
+    "average_precision": 0.1914712816943533,
+    "frontier_percentile_p95": 0.0,
+    "precision_at_p95": 0.0,
+    "r_at_p95": 0.0
+  },
+  "learning_rate": 0.01,
+  "method": "focal",
+  "optimizer": "torch.optim.AdamW",
+  "provenance": {
+    "official_call": "torchvision.ops.sigmoid_focal_loss(alpha=-1, gamma=2, reduction='mean')",
+    "official_library": "torchvision",
+    "torchvision_version": "0.23.0"
+  },
+  "run_dir": "results/controlled/focal/seed_7151",
+  "seed": 7151,
+  "steps": 40,
+  "target_precision": null,
+  "unit_of_step": "one complete training-data pass",
+  "validation_threshold_transfer": {
+    "test_transfer_accepted_p95": 537,
+    "test_transfer_accepted_positives_p95": 493,
+    "test_transfer_precision_p95": 0.9180633147113594,
+    "test_transfer_recall_p95": 0.08475159016675263,
+    "validation_threshold_p95": 1.2013084888458252
+  },
+  "weight_decay": 0.0001
+}

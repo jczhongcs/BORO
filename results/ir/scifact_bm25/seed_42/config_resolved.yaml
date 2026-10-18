@@ -1,0 +1,162 @@
+experiment:
+  name: scifact_bm25_boro_seed_42
+  mode: single
+  seed: 42
+  device: cuda
+datasets:
+  selected:
+  - scifact
+  train_split: train
+  eval_split: test
+  data_root: data/raw/ir
+  cache_dir: data/processed/ir/cache
+  use_title: true
+  allow_train_fallback: false
+  train_fallback_split: dev
+losses:
+  selected:
+  - arl
+selector:
+  enabled: true
+  diagnostics_source: auto
+  arl_post_overrides: {}
+  diagnostics:
+    top_gap: 0.3867449969049328
+    boundary_violation_rate: 0.7276510006190134
+    near_decoy_density: 0.6132550030950672
+    decoy_spread: 0.6143834471686104
+    inbatch_hardness: 0.5453020012380269
+    history_stability: 0.5683724984524663
+    score_entropy: 0.5879060037140807
+    score_spread: 0.6143834471686104
+    corpus_query_shift: 0.2688775624090864
+    top10_slope: 0.5524429956669057
+    tail_mass: 0.4475570043330943
+    top1_gap: 0.3867449969049328
+    query_set_scale: 0.7269871304030681
+    negative_protocol_hardness: 0.9
+    explicit_negative_dominance: 0.9320148331273177
+    boundary_variance: 0.5632550030950674
+    label_sparsity: 0.8069799876197308
+    relevance_breadth: 0.19302001238026922
+    source_dev_primary: null
+  factors:
+    hardness: 0.6992030018570403
+    uncertainty: 0.6115234990714797
+    stability_need: 0.5846979987619731
+    explicit_need: 0.6827823329433408
+  selected_arl_params:
+    max_prev_targets: 5000
+    max_prev_decoys: 5000
+    min_pos_weight: 0.35
+    boundary_start_epoch: 1
+    threshold_momentum: 0.5
+    fallback_quantile: 0.9
+    exact_scan_max_items: 200000
+    num_bins: 4096
+    min_required_targets: 1
+    margin_lr: 1.0e-05
+    score_mode: query_centered
+    include_inbatch_decoys: false
+    current_pair_weight: 1.0
+    decoy_mode: explicit_all
+    hard_decoy_topk: 16
+    constraint_value: 0.15
+    lower_band: 0.08
+    margin_init: 0.03
+    history_pair_weight: 0.2
+    boundary_decoy_weight: 1.0
+    soft_rank_temperature: 0.05
+model:
+  name: e5-small
+  hf_name: intfloat/e5-small-v2
+  fallback_hf_name: intfloat/e5-small
+  init_from: null
+  query_prefix: 'query: '
+  passage_prefix: 'passage: '
+  pooling: mean
+  normalize_embeddings: true
+  max_length_query: 64
+  max_length_doc: 256
+negative_sampling:
+  name: bm25
+  use_bm25: false
+  num_negatives: 1
+  exclude_positives: true
+  bm25:
+    backend: rank_bm25
+    top_k: 100
+    sample_from_top_k: 50
+    cache_path: data/processed/ir
+    refresh: false
+    fallback_to_random: true
+  mixed:
+    bm25_ratio: 0.5
+    random_ratio: 0.5
+training:
+  epochs: 5
+  protocol: fixed_epoch_test_once
+  train_only: false
+  batch_size: 16
+  lr: 2.0e-05
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 1
+  fp16: false
+  eval_every_epoch: false
+  save_best_by: NDCG@10
+  early_stopping:
+    enabled: false
+    patience: 3
+loss_params:
+  arl:
+    max_prev_targets: 5000
+    max_prev_decoys: 5000
+    constraint_value: 0.15
+    lower_band: 0.08
+    min_pos_weight: 0.35
+    boundary_start_epoch: 1
+    threshold_momentum: 0.5
+    fallback_quantile: 0.9
+    exact_scan_max_items: 200000
+    num_bins: 4096
+    min_required_targets: 1
+    margin_init: 0.03
+    margin_lr: 1.0e-05
+    include_inbatch_decoys: false
+    decoy_mode: explicit_all
+    score_mode: query_centered
+    hard_decoy_topk: 16
+    soft_rank_temperature: 0.05
+    history_pair_weight: 0.2
+    current_pair_weight: 1.0
+    boundary_decoy_weight: 1.0
+evaluation:
+  full_corpus: true
+  metric_backend: trec_eval
+  top_k: 100
+  query_batch_size: 128
+  corpus_batch_size: 256
+  use_faiss: true
+  chunk_size: 50000
+  metrics:
+  - R@1
+  - R@5
+  - R@10
+  - NDCG@5
+  - NDCG@10
+  - NDCG@20
+  - NDCG@1
+  - R@20
+  - MRR@10
+  - MAP@100
+outputs:
+  save_rankings: true
+  save_model: true
+  output_root: results/ir/scifact_bm25/seed_42
+  update_registry: false
+_runtime:
+  dataset: scifact
+  eval_dataset: scifact
+  loss: arl

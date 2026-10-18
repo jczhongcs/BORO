@@ -1,0 +1,93 @@
+{
+  "protocol": "ade_latest_2025_2026_official_code_adapters",
+  "method": "UBR",
+  "seed": 20260420,
+  "best_epoch": 8,
+  "selection_score": 0.10908902523386725,
+  "method_info": {
+    "minority_label": 1,
+    "majority_label": 0,
+    "removed_count": 6765,
+    "selected_count": 6765,
+    "selected_class_counts": {
+      "0": 3808,
+      "1": 2957
+    },
+    "selected_indices_sha256": "93e388e1c2c360b37d5f287e745bea7374d1931bce100bd91885cd639253172b",
+    "official_parameters": {
+      "alfa": 5.0,
+      "beta": 10.0,
+      "n_neighbors": 10,
+      "metric": "cosine similarity",
+      "removal_rule": "min(majority-minority, floor(total*0.5))"
+    },
+    "compatibility_changes": [
+      "Cosine neighbors use deterministic scikit-learn exact search in place of nmslib 2.1.1 HNSW",
+      "all official UBR difficulty and weighted-removal formulas retained"
+    ],
+    "selection_seconds": 2.9857422076165676
+  },
+  "config": {
+    "downstream_loss": "torch.nn.BCEWithLogitsLoss",
+    "model": "single linear score head",
+    "features": "fixed ADE 512-dimensional TF-IDF/SVD features",
+    "checkpoint_selection": "validation R@P95 + 0.01*AUPRC + 0.001*AUROC",
+    "epochs": 60,
+    "patience": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "train_seconds": 0.7815651260316372
+  },
+  "data": {
+    "train_size_original": 13530,
+    "train_size_selected": 6765,
+    "train_positive_original": 2957,
+    "train_positive_selected": 2957,
+    "val_size": 2388,
+    "val_positive": 522,
+    "test_size": 4977,
+    "test_positive": 792
+  },
+  "val_metrics": {
+    "auroc": 0.8542757470853712,
+    "auprc": 0.6702182436973458,
+    "r_at_p90": 0.13984674329501914,
+    "threshold_p90": 0.01587684452533722,
+    "r_at_p95": 0.10153256704980843,
+    "threshold_p95": 0.03932681679725647,
+    "r_at_p98": 0.028735632183908046,
+    "threshold_p98": 0.08394405245780945,
+    "r_at_fpr0p01": 0.18582375478927204,
+    "threshold_fpr0p01": -0.005097508430480957,
+    "r_at_fpr0p05": 0.4559386973180077,
+    "threshold_fpr0p05": -0.07860490679740906,
+    "r_at_fpr0p1": 0.6053639846743295,
+    "threshold_fpr0p1": -0.11224981397390366,
+    "best_f1": 0.6432246998284734,
+    "best_f1_precision": 0.5822981366459627,
+    "best_f1_recall": 0.7183908045977011,
+    "best_f1_threshold": -0.13090063631534576
+  },
+  "test_metrics": {
+    "auroc": 0.8486513884363347,
+    "auprc": 0.5773137142955493,
+    "r_at_p90": 0.08333333333333333,
+    "threshold_p90": 0.03518235683441162,
+    "r_at_p95": 0.02904040404040404,
+    "threshold_p95": 0.08318695425987244,
+    "r_at_p98": 0.003787878787878788,
+    "threshold_p98": 0.14154738187789917,
+    "r_at_fpr0p01": 0.19318181818181818,
+    "threshold_fpr0p01": -0.02244044840335846,
+    "r_at_fpr0p05": 0.42045454545454547,
+    "threshold_fpr0p05": -0.07724310457706451,
+    "r_at_fpr0p1": 0.5883838383838383,
+    "threshold_fpr0p1": -0.11009097844362259,
+    "best_f1": 0.5595166163141994,
+    "best_f1_precision": 0.5365005793742758,
+    "best_f1_recall": 0.5845959595959596,
+    "best_f1_threshold": -0.10905957221984863
+  },
+  "run_dir": "results/ade/ubr/seed_20260420"
+}

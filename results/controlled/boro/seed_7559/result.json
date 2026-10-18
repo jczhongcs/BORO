@@ -1,0 +1,96 @@
+{
+  "batch_size": 256,
+  "data_sha256": "997765619583e96752429b6a24ff983922978ec4d839736cb2b178cc26a76d67",
+  "dataset_path": "data/processed/controlled/seed_7559.npz",
+  "eval_every": 5,
+  "evaluation_targets": [
+    0.95
+  ],
+  "final_test_metrics": {
+    "accepted_at_p95": 669,
+    "average_precision": 0.7672940128413162,
+    "frontier_percentile_p95": 0.022267408913630455,
+    "precision_at_p95": 0.9506726457399103,
+    "r_at_p95": 0.10378590078328982
+  },
+  "final_validation_metrics": {
+    "accepted_at_p95": 560,
+    "average_precision": 0.7682486678842141,
+    "frontier_percentile_p95": 0.027951397569878494,
+    "precision_at_p95": 0.95,
+    "r_at_p95": 0.1344452868334597
+  },
+  "fixed_horizon_primary": true,
+  "initial_mechanism": {
+    "band_correct_sign_mass_fraction_q": 1.0,
+    "band_gradient_mass": 0.24458990369386047,
+    "band_normalized_signed_drive_s": 1.0,
+    "centroid_frontier_distance": 0.4355173360873026,
+    "gradient_centroid": 0.4355173360873026,
+    "loss": 2.2987828254699707,
+    "method": "boro_full",
+    "normalized_parameter_step_norm": 0.01,
+    "raw_parameter_gradient_norm": 3.8580355644226074,
+    "target_precision": 0.95,
+    "train_frontier_percentile": 0.0,
+    "validation_band_negatives": 1558,
+    "validation_band_positives": 442,
+    "validation_band_size": 2000,
+    "validation_frontier_percentile": 0.0,
+    "validation_negative_median_rank_improvement": 0.0005000250012500611,
+    "validation_pairwise_accuracy_after": 0.5633106604940782,
+    "validation_pairwise_accuracy_before": 0.5386641128259341,
+    "validation_pairwise_accuracy_gain": 0.024646547668144114,
+    "validation_positive_median_rank_improvement": 0.001650082504125211
+  },
+  "initial_test_metrics": {
+    "accepted_at_p95": 0,
+    "average_precision": 0.22073161229828717,
+    "frontier_percentile_p95": 0.0,
+    "precision_at_p95": 0.0,
+    "r_at_p95": 0.0
+  },
+  "initial_validation_metrics": {
+    "accepted_at_p95": 1,
+    "average_precision": 0.20985370249793764,
+    "frontier_percentile_p95": 0.0,
+    "precision_at_p95": 1.0,
+    "r_at_p95": 0.00025271670457417233
+  },
+  "learning_rate": 0.001,
+  "method": "boro_full",
+  "optimizer": "torch.optim.AdamW",
+  "provenance": {
+    "boundary_gap_weight": 0.15,
+    "boundary_negative_weight": 0.5,
+    "current_hard_negatives": 16,
+    "current_pair_weight": 0.2,
+    "far_below_suppression": 0.05,
+    "frozen_config_name": "boundary_tight_p99",
+    "frozen_config_source": "experiments/ade/config.json",
+    "history_pair_weight": 1.25,
+    "intervened_field": "target_precision only",
+    "lower_band": 0.35,
+    "max_prev_negatives": 5000,
+    "max_prev_positives": 5000,
+    "min_pos_weight": 0.4,
+    "project_method": "boro.ade.loss.BOROLoss",
+    "soft_rank_temperature": 0.6,
+    "source_file": "results/controlled/boro/loss_source.py",
+    "source_sha256": "c4dd7a0da45357f32fef7118f6ee5a118bb5b524651c2ca2bf7e7e9cbcc99d5b",
+    "target_precision": 0.95
+  },
+  "run_dir": "results/controlled/boro/seed_7559",
+  "seed": 7559,
+  "steps": 45,
+  "target_precision": 0.95,
+  "unit_of_step": "one complete training-data pass",
+  "validation_threshold_transfer": {
+    "test_transfer_accepted_p95": 853,
+    "test_transfer_accepted_positives_p95": 800,
+    "test_transfer_precision_p95": 0.9378663540445487,
+    "test_transfer_recall_p95": 0.13054830287206268,
+    "validation_threshold_p95": 0.8199949860572815
+  },
+  "weight_decay": 0.0001
+}

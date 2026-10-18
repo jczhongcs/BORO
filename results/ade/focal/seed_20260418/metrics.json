@@ -1,0 +1,36 @@
+{
+  "stage": "selected_configuration_test_evaluation",
+  "method": "focal",
+  "config_id": "alpha_0.5_gamma_4",
+  "parameters": {
+    "alpha": 0.5,
+    "gamma": 4.0
+  },
+  "seed": 20260418,
+  "best_epoch": 55,
+  "test_metrics": {
+    "auroc": 0.8931486308726454,
+    "auprc": 0.673436274647471,
+    "r_at_p90": 0.18181818181818182,
+    "threshold_p90": 0.3786607086658478,
+    "r_at_p95": 0.1275252525252525,
+    "threshold_p95": 0.48809805512428284,
+    "r_at_p98": 0.06439393939393939,
+    "threshold_p98": 0.6467207670211792,
+    "r_at_fpr0p01": 0.2601010101010101,
+    "threshold_fpr0p01": 0.27425459027290344,
+    "r_at_fpr0p05": 0.5631313131313131,
+    "threshold_fpr0p05": 0.004130005836486816,
+    "r_at_fpr0p1": 0.678030303030303,
+    "threshold_fpr0p1": -0.13095539808273315,
+    "best_f1": 0.6199312714776632,
+    "best_f1_precision": 0.6802413273001509,
+    "best_f1_recall": 0.5694444444444444,
+    "best_f1_threshold": 0.00151902437210083
+  },
+  "data": {
+    "test_size": 4977,
+    "test_positive": 792
+  },
+  "run_dir": "results/ade/focal/seed_20260418"
+}

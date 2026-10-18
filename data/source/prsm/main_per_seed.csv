@@ -1,0 +1,351 @@
+panel,group,species_name,transfer_status,method,seed,additional_target_prsms_per_file,file_count,group_type,fdr_threshold,additional_decoy_prsms_per_file
+a,Overall,,Overall,BCE,1729,31.8285714286,35,,,
+a,Overall,,Overall,BCE,3407,29.7142857143,35,,,
+a,Overall,,Overall,BCE,4969,32.4285714286,35,,,
+a,Overall,,Overall,BCE,7919,31.2571428571,35,,,
+a,Overall,,Overall,BCE,8256,27.7142857143,35,,,
+a,Overall,,Overall,Focal,1729,31.2571428571,35,,,
+a,Overall,,Overall,Focal,3407,26.4,35,,,
+a,Overall,,Overall,Focal,4969,31.6,35,,,
+a,Overall,,Overall,Focal,7919,30.9714285714,35,,,
+a,Overall,,Overall,Focal,8256,27.4285714286,35,,,
+a,Overall,,Overall,Class-Balanced,1729,30.9714285714,35,,,
+a,Overall,,Overall,Class-Balanced,3407,27.4,35,,,
+a,Overall,,Overall,Class-Balanced,4969,31.4,35,,,
+a,Overall,,Overall,Class-Balanced,7919,31.0571428571,35,,,
+a,Overall,,Overall,Class-Balanced,8256,29.0571428571,35,,,
+a,Overall,,Overall,pAUC,1729,24.571428571428573,35,,,0.2857142857142857
+a,Overall,,Overall,pAUC,3407,17.485714285714284,35,,,0.2
+a,Overall,,Overall,pAUC,4969,25.085714285714285,35,,,0.2857142857142857
+a,Overall,,Overall,pAUC,7919,21.914285714285715,35,,,0.2571428571428571
+a,Overall,,Overall,pAUC,8256,13.485714285714286,35,,,0.17142857142857143
+a,Overall,,Overall,IMMAX,1729,31.4285714286,35,,,
+a,Overall,,Overall,IMMAX,3407,27.2857142857,35,,,
+a,Overall,,Overall,IMMAX,4969,33.3428571429,35,,,
+a,Overall,,Overall,IMMAX,7919,30.0571428571,35,,,
+a,Overall,,Overall,IMMAX,8256,30.0857142857,35,,,
+a,Overall,,Overall,BORO,1729,38.0,35,,,0.45714285714285713
+a,Overall,,Overall,BORO,3407,39.02857142857143,35,,,0.45714285714285713
+a,Overall,,Overall,BORO,4969,37.02857142857143,35,,,0.4857142857142857
+a,Overall,,Overall,BORO,7919,38.57142857142857,35,,,0.42857142857142855
+a,Overall,,Overall,BORO,8256,39.542857142857144,35,,,0.45714285714285713
+a,Seen-species internal,,Seen-species internal,BCE,1729,38.9090909091,11,,,
+a,Seen-species internal,,Seen-species internal,BCE,3407,35.0909090909,11,,,
+a,Seen-species internal,,Seen-species internal,BCE,4969,37.7272727273,11,,,
+a,Seen-species internal,,Seen-species internal,BCE,7919,36.8181818182,11,,,
+a,Seen-species internal,,Seen-species internal,BCE,8256,33.5454545455,11,,,
+a,Seen-species internal,,Seen-species internal,Focal,1729,37.6363636364,11,,,
+a,Seen-species internal,,Seen-species internal,Focal,3407,33.5454545455,11,,,
+a,Seen-species internal,,Seen-species internal,Focal,4969,36.6363636364,11,,,
+a,Seen-species internal,,Seen-species internal,Focal,7919,36.1818181818,11,,,
+a,Seen-species internal,,Seen-species internal,Focal,8256,34.2727272727,11,,,
+a,Seen-species internal,,Seen-species internal,Class-Balanced,1729,37.0,11,,,
+a,Seen-species internal,,Seen-species internal,Class-Balanced,3407,32.0909090909,11,,,
+a,Seen-species internal,,Seen-species internal,Class-Balanced,4969,37.8181818182,11,,,
+a,Seen-species internal,,Seen-species internal,Class-Balanced,7919,36.0,11,,,
+a,Seen-species internal,,Seen-species internal,Class-Balanced,8256,36.4545454545,11,,,
+a,Seen-species internal,,Seen-species internal,pAUC,1729,31.363636363636363,11,,,0.45454545454545453
+a,Seen-species internal,,Seen-species internal,pAUC,3407,24.454545454545453,11,,,0.36363636363636365
+a,Seen-species internal,,Seen-species internal,pAUC,4969,26.90909090909091,11,,,0.36363636363636365
+a,Seen-species internal,,Seen-species internal,pAUC,7919,30.09090909090909,11,,,0.36363636363636365
+a,Seen-species internal,,Seen-species internal,pAUC,8256,28.818181818181817,11,,,0.36363636363636365
+a,Seen-species internal,,Seen-species internal,IMMAX,1729,38.0909090909,11,,,
+a,Seen-species internal,,Seen-species internal,IMMAX,3407,35.7272727273,11,,,
+a,Seen-species internal,,Seen-species internal,IMMAX,4969,41.2727272727,11,,,
+a,Seen-species internal,,Seen-species internal,IMMAX,7919,36.8181818182,11,,,
+a,Seen-species internal,,Seen-species internal,IMMAX,8256,34.3636363636,11,,,
+a,Seen-species internal,,Seen-species internal,BORO,1729,44.36363636363637,11,,,0.6363636363636364
+a,Seen-species internal,,Seen-species internal,BORO,3407,44.54545454545455,11,,,0.6363636363636364
+a,Seen-species internal,,Seen-species internal,BORO,4969,43.09090909090909,11,,,0.6363636363636364
+a,Seen-species internal,,Seen-species internal,BORO,7919,42.63636363636363,11,,,0.45454545454545453
+a,Seen-species internal,,Seen-species internal,BORO,8256,44.09090909090909,11,,,0.5454545454545454
+a,Unseen-species transfer,,Unseen-species transfer,BCE,1729,28.5833333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,BCE,3407,27.25,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,BCE,4969,30.0,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,BCE,7919,28.7083333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,BCE,8256,25.0416666667,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Focal,1729,28.3333333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Focal,3407,23.125,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Focal,4969,29.2916666667,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Focal,7919,28.5833333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Focal,8256,24.2916666667,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Class-Balanced,1729,28.2083333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Class-Balanced,3407,25.25,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Class-Balanced,4969,28.4583333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Class-Balanced,7919,28.7916666667,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,Class-Balanced,8256,25.6666666667,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,pAUC,1729,21.458333333333332,24,,,0.20833333333333334
+a,Unseen-species transfer,,Unseen-species transfer,pAUC,3407,14.291666666666666,24,,,0.125
+a,Unseen-species transfer,,Unseen-species transfer,pAUC,4969,24.25,24,,,0.25
+a,Unseen-species transfer,,Unseen-species transfer,pAUC,7919,18.166666666666668,24,,,0.20833333333333334
+a,Unseen-species transfer,,Unseen-species transfer,pAUC,8256,6.458333333333333,24,,,0.08333333333333333
+a,Unseen-species transfer,,Unseen-species transfer,IMMAX,1729,28.375,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,IMMAX,3407,23.4166666667,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,IMMAX,4969,29.7083333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,IMMAX,7919,26.9583333333,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,IMMAX,8256,28.125,24,,,
+a,Unseen-species transfer,,Unseen-species transfer,BORO,1729,35.083333333333336,24,,,0.375
+a,Unseen-species transfer,,Unseen-species transfer,BORO,3407,36.5,24,,,0.375
+a,Unseen-species transfer,,Unseen-species transfer,BORO,4969,34.25,24,,,0.4166666666666667
+a,Unseen-species transfer,,Unseen-species transfer,BORO,7919,36.708333333333336,24,,,0.4166666666666667
+a,Unseen-species transfer,,Unseen-species transfer,BORO,8256,37.458333333333336,24,,,0.4166666666666667
+b,Human,Homo sapiens,训练物种内独立测试,BCE,1729,8.25,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,BCE,3407,5.5,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,BCE,4969,8.0,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,BCE,7919,8.125,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,BCE,8256,6.0,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Focal,1729,7.25,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Focal,3407,4.125,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Focal,4969,9.25,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Focal,7919,5.75,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Focal,8256,5.375,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Class-Balanced,1729,8.5,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Class-Balanced,3407,4.375,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Class-Balanced,4969,9.75,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Class-Balanced,7919,5.75,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,Class-Balanced,8256,6.875,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,pAUC,1729,6.375,8,,,0.125
+b,Human,Homo sapiens,训练物种内独立测试,pAUC,3407,4.5,8,,,0.0
+b,Human,Homo sapiens,训练物种内独立测试,pAUC,4969,4.875,8,,,0.0
+b,Human,Homo sapiens,训练物种内独立测试,pAUC,7919,3.375,8,,,0.0
+b,Human,Homo sapiens,训练物种内独立测试,pAUC,8256,6.125,8,,,0.0
+b,Human,Homo sapiens,训练物种内独立测试,IMMAX,1729,8.0,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,IMMAX,3407,6.5,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,IMMAX,4969,13.0,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,IMMAX,7919,7.875,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,IMMAX,8256,6.5,8,,,
+b,Human,Homo sapiens,训练物种内独立测试,BORO,1729,14.5,8,,,0.25
+b,Human,Homo sapiens,训练物种内独立测试,BORO,3407,12.875,8,,,0.25
+b,Human,Homo sapiens,训练物种内独立测试,BORO,4969,11.25,8,,,0.25
+b,Human,Homo sapiens,训练物种内独立测试,BORO,7919,11.625,8,,,0.0
+b,Human,Homo sapiens,训练物种内独立测试,BORO,8256,13.875,8,,,0.125
+b,FB_TeO,Danio rerio,训练物种内独立测试,BCE,1729,120.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,BCE,3407,114.0,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,BCE,4969,117.0,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,BCE,7919,113.333333333,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,BCE,8256,107.0,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Focal,1729,118.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Focal,3407,112.0,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Focal,4969,109.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Focal,7919,117.333333333,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Focal,8256,111.333333333,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Class-Balanced,1729,113.0,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Class-Balanced,3407,106.0,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Class-Balanced,4969,112.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Class-Balanced,7919,116.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,Class-Balanced,8256,115.333333333,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,pAUC,1729,98.0,3,,,1.3333333333333333
+b,FB_TeO,Danio rerio,训练物种内独立测试,pAUC,3407,77.66666666666667,3,,,1.3333333333333333
+b,FB_TeO,Danio rerio,训练物种内独立测试,pAUC,4969,85.66666666666667,3,,,1.3333333333333333
+b,FB_TeO,Danio rerio,训练物种内独立测试,pAUC,7919,101.33333333333333,3,,,1.3333333333333333
+b,FB_TeO,Danio rerio,训练物种内独立测试,pAUC,8256,89.33333333333333,3,,,1.3333333333333333
+b,FB_TeO,Danio rerio,训练物种内独立测试,IMMAX,1729,118.333333333,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,IMMAX,3407,113.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,IMMAX,4969,116.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,IMMAX,7919,114.0,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,IMMAX,8256,108.666666667,3,,,
+b,FB_TeO,Danio rerio,训练物种内独立测试,BORO,1729,124.0,3,,,1.6666666666666667
+b,FB_TeO,Danio rerio,训练物种内独立测试,BORO,3407,129.0,3,,,1.6666666666666667
+b,FB_TeO,Danio rerio,训练物种内独立测试,BORO,4969,128.0,3,,,1.6666666666666667
+b,FB_TeO,Danio rerio,训练物种内独立测试,BORO,7919,125.33333333333333,3,,,1.6666666666666667
+b,FB_TeO,Danio rerio,训练物种内独立测试,BORO,8256,124.66666666666667,3,,,1.6666666666666667
+b,PS,Pisum sativum,未见物种迁移,BCE,1729,39.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,BCE,3407,38.8,5,,,
+b,PS,Pisum sativum,未见物种迁移,BCE,4969,39.4,5,,,
+b,PS,Pisum sativum,未见物种迁移,BCE,7919,38.4,5,,,
+b,PS,Pisum sativum,未见物种迁移,BCE,8256,33.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,Focal,1729,36.2,5,,,
+b,PS,Pisum sativum,未见物种迁移,Focal,3407,28.8,5,,,
+b,PS,Pisum sativum,未见物种迁移,Focal,4969,39.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,Focal,7919,38.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,Focal,8256,28.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,Class-Balanced,1729,36.6,5,,,
+b,PS,Pisum sativum,未见物种迁移,Class-Balanced,3407,37.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,Class-Balanced,4969,39.8,5,,,
+b,PS,Pisum sativum,未见物种迁移,Class-Balanced,7919,38.2,5,,,
+b,PS,Pisum sativum,未见物种迁移,Class-Balanced,8256,31.2,5,,,
+b,PS,Pisum sativum,未见物种迁移,pAUC,1729,5.8,5,,,0.2
+b,PS,Pisum sativum,未见物种迁移,pAUC,3407,15.0,5,,,0.2
+b,PS,Pisum sativum,未见物种迁移,pAUC,4969,25.2,5,,,0.4
+b,PS,Pisum sativum,未见物种迁移,pAUC,7919,-5.6,5,,,0.2
+b,PS,Pisum sativum,未见物种迁移,pAUC,8256,-15.2,5,,,0.2
+b,PS,Pisum sativum,未见物种迁移,IMMAX,1729,35.8,5,,,
+b,PS,Pisum sativum,未见物种迁移,IMMAX,3407,31.4,5,,,
+b,PS,Pisum sativum,未见物种迁移,IMMAX,4969,41.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,IMMAX,7919,39.0,5,,,
+b,PS,Pisum sativum,未见物种迁移,IMMAX,8256,35.2,5,,,
+b,PS,Pisum sativum,未见物种迁移,BORO,1729,37.0,5,,,0.4
+b,PS,Pisum sativum,未见物种迁移,BORO,3407,44.0,5,,,0.6
+b,PS,Pisum sativum,未见物种迁移,BORO,4969,41.8,5,,,0.6
+b,PS,Pisum sativum,未见物种迁移,BORO,7919,45.6,5,,,0.6
+b,PS,Pisum sativum,未见物种迁移,BORO,8256,46.4,5,,,0.6
+b,TM,Tenebrio molitor,未见物种迁移,BCE,1729,92.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,BCE,3407,93.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,BCE,4969,92.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,BCE,7919,93.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,BCE,8256,95.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Focal,1729,96.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Focal,3407,84.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Focal,4969,97.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Focal,7919,99.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Focal,8256,94.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Class-Balanced,1729,90.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Class-Balanced,3407,89.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Class-Balanced,4969,96.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Class-Balanced,7919,99.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,Class-Balanced,8256,94.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,pAUC,1729,106.5,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,pAUC,3407,44.5,2,,,0.0
+b,TM,Tenebrio molitor,未见物种迁移,pAUC,4969,111.5,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,pAUC,7919,99.0,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,pAUC,8256,61.5,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,IMMAX,1729,94.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,IMMAX,3407,86.5,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,IMMAX,4969,97.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,IMMAX,7919,98.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,IMMAX,8256,102.0,2,,,
+b,TM,Tenebrio molitor,未见物种迁移,BORO,1729,105.5,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,BORO,3407,106.5,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,BORO,4969,95.5,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,BORO,7919,103.5,2,,,0.5
+b,TM,Tenebrio molitor,未见物种迁移,BORO,8256,104.0,2,,,0.5
+b,AH,Mus musculus,未见物种迁移,BCE,1729,5.83333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,BCE,3407,4.33333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,BCE,4969,4.0,6,,,
+b,AH,Mus musculus,未见物种迁移,BCE,7919,4.0,6,,,
+b,AH,Mus musculus,未见物种迁移,BCE,8256,3.33333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,Focal,1729,6.33333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,Focal,3407,4.16666666667,6,,,
+b,AH,Mus musculus,未见物种迁移,Focal,4969,5.0,6,,,
+b,AH,Mus musculus,未见物种迁移,Focal,7919,3.66666666667,6,,,
+b,AH,Mus musculus,未见物种迁移,Focal,8256,2.16666666667,6,,,
+b,AH,Mus musculus,未见物种迁移,Class-Balanced,1729,6.33333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,Class-Balanced,3407,5.0,6,,,
+b,AH,Mus musculus,未见物种迁移,Class-Balanced,4969,1.5,6,,,
+b,AH,Mus musculus,未见物种迁移,Class-Balanced,7919,4.66666666667,6,,,
+b,AH,Mus musculus,未见物种迁移,Class-Balanced,8256,3.33333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,pAUC,1729,4.166666666666667,6,,,0.16666666666666666
+b,AH,Mus musculus,未见物种迁移,pAUC,3407,3.1666666666666665,6,,,0.16666666666666666
+b,AH,Mus musculus,未见物种迁移,pAUC,4969,3.6666666666666665,6,,,0.16666666666666666
+b,AH,Mus musculus,未见物种迁移,pAUC,7919,4.666666666666667,6,,,0.16666666666666666
+b,AH,Mus musculus,未见物种迁移,pAUC,8256,1.8333333333333333,6,,,0.16666666666666666
+b,AH,Mus musculus,未见物种迁移,IMMAX,1729,5.83333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,IMMAX,3407,4.33333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,IMMAX,4969,2.83333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,IMMAX,7919,1.83333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,IMMAX,8256,1.83333333333,6,,,
+b,AH,Mus musculus,未见物种迁移,BORO,1729,11.166666666666666,6,,,0.3333333333333333
+b,AH,Mus musculus,未见物种迁移,BORO,3407,11.166666666666666,6,,,0.3333333333333333
+b,AH,Mus musculus,未见物种迁移,BORO,4969,9.833333333333334,6,,,0.3333333333333333
+b,AH,Mus musculus,未见物种迁移,BORO,7919,10.0,6,,,0.3333333333333333
+b,AH,Mus musculus,未见物种迁移,BORO,8256,12.0,6,,,0.3333333333333333
+b,AT,Arabidopsis thaliana,未见物种迁移,BCE,1729,20.0,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,BCE,3407,17.2,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,BCE,4969,22.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,BCE,7919,16.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,BCE,8256,15.8,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Focal,1729,17.2,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Focal,3407,14.8,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Focal,4969,21.0,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Focal,7919,17.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Focal,8256,15.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Class-Balanced,1729,18.8,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Class-Balanced,3407,16.4,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Class-Balanced,4969,19.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Class-Balanced,7919,17.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,Class-Balanced,8256,16.2,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,pAUC,1729,16.8,5,,,0.0
+b,AT,Arabidopsis thaliana,未见物种迁移,pAUC,3407,18.0,5,,,0.0
+b,AT,Arabidopsis thaliana,未见物种迁移,pAUC,4969,18.2,5,,,0.0
+b,AT,Arabidopsis thaliana,未见物种迁移,pAUC,7919,16.8,5,,,0.0
+b,AT,Arabidopsis thaliana,未见物种迁移,pAUC,8256,13.4,5,,,0.0
+b,AT,Arabidopsis thaliana,未见物种迁移,IMMAX,1729,18.2,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,IMMAX,3407,14.0,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,IMMAX,4969,22.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,IMMAX,7919,19.6,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,IMMAX,8256,18.2,5,,,
+b,AT,Arabidopsis thaliana,未见物种迁移,BORO,1729,26.2,5,,,0.2
+b,AT,Arabidopsis thaliana,未见物种迁移,BORO,3407,24.8,5,,,0.2
+b,AT,Arabidopsis thaliana,未见物种迁移,BORO,4969,24.4,5,,,0.2
+b,AT,Arabidopsis thaliana,未见物种迁移,BORO,7919,26.6,5,,,0.2
+b,AT,Arabidopsis thaliana,未见物种迁移,BORO,8256,26.6,5,,,0.2
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BCE,1729,28.6666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BCE,3407,26.8333333333,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BCE,4969,33.6666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BCE,7919,33.8333333333,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BCE,8256,24.3333333333,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Focal,1729,30.5,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Focal,3407,23.8333333333,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Focal,4969,29.8333333333,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Focal,7919,31.1666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Focal,8256,27.1666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Class-Balanced,1729,30.3333333333,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Class-Balanced,3407,21.6666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Class-Balanced,4969,30.6666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Class-Balanced,7919,30.8333333333,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,Class-Balanced,8256,28.5,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,pAUC,1729,27.333333333333332,6,,,0.3333333333333333
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,pAUC,3407,11.666666666666666,6,,,0.16666666666666666
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,pAUC,4969,20.0,6,,,0.3333333333333333
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,pAUC,7919,25.666666666666668,6,,,0.3333333333333333
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,pAUC,8256,5.0,6,,,-0.16666666666666666
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,IMMAX,1729,31.1666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,IMMAX,3407,22.6666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,IMMAX,4969,30.6666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,IMMAX,7919,24.5,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,IMMAX,8256,32.1666666667,6,,,
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BORO,1729,41.333333333333336,6,,,0.5
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BORO,3407,42.0,6,,,0.3333333333333333
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BORO,4969,40.166666666666664,6,,,0.5
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BORO,7919,42.166666666666664,6,,,0.5
+b,Yeast,Saccharomyces cerevisiae,未见物种迁移,BORO,8256,42.333333333333336,6,,,0.5
+a,Overall,,,STACO,1729,25.571428571428573,35,overall,0.01,0.3142857142857143
+a,Overall,,,STACO,3407,27.057142857142857,35,overall,0.01,0.3142857142857143
+a,Overall,,,STACO,4969,24.2,35,overall,0.01,0.2857142857142857
+a,Overall,,,STACO,7919,26.571428571428573,35,overall,0.01,0.3142857142857143
+a,Overall,,,STACO,8256,23.37142857142857,35,overall,0.01,0.2857142857142857
+a,Seen-species internal,,,STACO,1729,34.18181818181818,11,regime,0.01,0.4545454545454545
+a,Seen-species internal,,,STACO,3407,33.63636363636363,11,regime,0.01,0.4545454545454545
+a,Seen-species internal,,,STACO,4969,32.36363636363637,11,regime,0.01,0.4545454545454545
+a,Seen-species internal,,,STACO,7919,31.545454545454547,11,regime,0.01,0.4545454545454545
+a,Seen-species internal,,,STACO,8256,30.0,11,regime,0.01,0.4545454545454545
+a,Unseen-species transfer,,,STACO,1729,21.625,24,regime,0.01,0.25
+a,Unseen-species transfer,,,STACO,3407,24.041666666666668,24,regime,0.01,0.25
+a,Unseen-species transfer,,,STACO,4969,20.458333333333332,24,regime,0.01,0.2083333333333333
+a,Unseen-species transfer,,,STACO,7919,24.291666666666668,24,regime,0.01,0.25
+a,Unseen-species transfer,,,STACO,8256,20.333333333333332,24,regime,0.01,0.2083333333333333
+b,Human,,,STACO,1729,5.0,8,species,0.01,0.0
+b,Human,,,STACO,3407,3.375,8,species,0.01,0.0
+b,Human,,,STACO,4969,2.25,8,species,0.01,0.0
+b,Human,,,STACO,7919,2.625,8,species,0.01,0.0
+b,Human,,,STACO,8256,2.25,8,species,0.01,0.0
+b,FB_TeO,,,STACO,1729,112.0,3,species,0.01,1.6666666666666667
+b,FB_TeO,,,STACO,3407,114.33333333333331,3,species,0.01,1.6666666666666667
+b,FB_TeO,,,STACO,4969,112.66666666666669,3,species,0.01,1.6666666666666667
+b,FB_TeO,,,STACO,7919,108.66666666666669,3,species,0.01,1.6666666666666667
+b,FB_TeO,,,STACO,8256,104.0,3,species,0.01,1.6666666666666667
+b,PS,,,STACO,1729,22.0,5,species,0.01,0.4
+b,PS,,,STACO,3407,24.6,5,species,0.01,0.4
+b,PS,,,STACO,4969,19.8,5,species,0.01,0.4
+b,PS,,,STACO,7919,25.4,5,species,0.01,0.4
+b,PS,,,STACO,8256,21.4,5,species,0.01,0.4
+b,TM,,,STACO,1729,87.5,2,species,0.01,0.5
+b,TM,,,STACO,3407,88.0,2,species,0.01,0.5
+b,TM,,,STACO,4969,87.5,2,species,0.01,0.5
+b,TM,,,STACO,7919,88.5,2,species,0.01,0.5
+b,TM,,,STACO,8256,94.0,2,species,0.01,0.5
+b,AH,,,STACO,1729,0.8333333333333334,6,species,0.01,0.1666666666666666
+b,AH,,,STACO,3407,3.0,6,species,0.01,0.1666666666666666
+b,AH,,,STACO,4969,0.5,6,species,0.01,0.0
+b,AH,,,STACO,7919,2.5,6,species,0.01,0.1666666666666666
+b,AH,,,STACO,8256,-0.3333333333333333,6,species,0.01,0.0
+b,AT,,,STACO,1729,15.4,5,species,0.01,0.0
+b,AT,,,STACO,3407,14.0,5,species,0.01,0.0
+b,AT,,,STACO,4969,12.0,5,species,0.01,0.0
+b,AT,,,STACO,7919,14.0,5,species,0.01,0.0
+b,AT,,,STACO,8256,15.4,5,species,0.01,0.0
+b,Yeast,,,STACO,1729,25.333333333333332,6,species,0.01,0.3333333333333333
+b,Yeast,,,STACO,3407,31.666666666666668,6,species,0.01,0.3333333333333333
+b,Yeast,,,STACO,4969,25.666666666666668,6,species,0.01,0.3333333333333333
+b,Yeast,,,STACO,7919,32.333333333333336,6,species,0.01,0.3333333333333333
+b,Yeast,,,STACO,8256,19.666666666666668,6,species,0.01,0.3333333333333333

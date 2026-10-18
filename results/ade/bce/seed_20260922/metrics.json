@@ -1,0 +1,80 @@
+{
+  "protocol": "ade_latest_2025_2026_official_code_adapters",
+  "method": "BCE-NoSel",
+  "seed": 20260922,
+  "best_epoch": 46,
+  "selection_score": 0.11717164202576716,
+  "method_info": {
+    "role": "BCE on the full training set",
+    "selected_indices_sha256": "7376159d52f4cc9c3d01a28649be5cdde3d1c002897102db8578d18554bfd66d",
+    "selected_class_counts": {
+      "0": 10573,
+      "1": 2957
+    },
+    "compatibility_changes": [],
+    "selection_seconds": 0.00035991892218589783
+  },
+  "config": {
+    "downstream_loss": "torch.nn.BCEWithLogitsLoss",
+    "model": "single linear score head",
+    "features": "fixed ADE 512-dimensional TF-IDF/SVD features",
+    "checkpoint_selection": "validation R@P95 + 0.01*AUPRC + 0.001*AUROC",
+    "epochs": 60,
+    "patience": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "train_seconds": 6.866282917559147
+  },
+  "data": {
+    "train_size_original": 13530,
+    "train_size_selected": 13530,
+    "train_positive_original": 2957,
+    "train_positive_selected": 2957,
+    "val_size": 2388,
+    "val_positive": 522,
+    "test_size": 4977,
+    "test_positive": 792
+  },
+  "val_metrics": {
+    "auroc": 0.8787600661976979,
+    "auprc": 0.7097479660718886,
+    "r_at_p90": 0.23371647509578544,
+    "threshold_p90": -0.07138955593109131,
+    "r_at_p95": 0.10919540229885058,
+    "threshold_p95": 0.20199048519134521,
+    "r_at_p98": 0.0,
+    "threshold_p98": null,
+    "r_at_fpr0p01": 0.2547892720306513,
+    "threshold_fpr0p01": -0.12811493873596191,
+    "r_at_fpr0p05": 0.524904214559387,
+    "threshold_fpr0p05": -0.6143852472305298,
+    "r_at_fpr0p1": 0.6628352490421456,
+    "threshold_fpr0p1": -0.8368197083473206,
+    "best_f1": 0.6595330739299611,
+    "best_f1_precision": 0.6699604743083004,
+    "best_f1_recall": 0.6494252873563219,
+    "best_f1_threshold": -0.8123205304145813
+  },
+  "test_metrics": {
+    "auroc": 0.8824270180901004,
+    "auprc": 0.6490441112779627,
+    "r_at_p90": 0.18686868686868688,
+    "threshold_p90": 0.00221860408782959,
+    "r_at_p95": 0.09722222222222222,
+    "threshold_p95": 0.28421032428741455,
+    "r_at_p98": 0.025252525252525252,
+    "threshold_p98": 0.8500670194625854,
+    "r_at_fpr0p01": 0.2398989898989899,
+    "threshold_fpr0p01": -0.14868366718292236,
+    "r_at_fpr0p05": 0.5126262626262627,
+    "threshold_fpr0p05": -0.618371844291687,
+    "r_at_fpr0p1": 0.672979797979798,
+    "threshold_fpr0p1": -0.8391262888908386,
+    "best_f1": 0.6126126126126126,
+    "best_f1_precision": 0.584192439862543,
+    "best_f1_recall": 0.6439393939393939,
+    "best_f1_threshold": -0.7899185419082642
+  },
+  "run_dir": "results/ade/bce/seed_20260922"
+}

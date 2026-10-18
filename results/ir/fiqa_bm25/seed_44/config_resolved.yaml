@@ -1,0 +1,164 @@
+experiment:
+  name: fiqa_bm25_boro_seed_44
+  mode: single
+  seed: 44
+  device: cuda
+datasets:
+  selected:
+  - fiqa
+  train_split: train
+  eval_split: test
+  data_root: data/raw/ir
+  cache_dir: data/processed/ir/cache
+  use_title: true
+  allow_train_fallback: false
+  train_fallback_split: dev
+losses:
+  selected:
+  - arl
+selector:
+  enabled: true
+  diagnostics_source: auto
+  arl_post_overrides: {}
+  diagnostics:
+    top_gap: 0.3539852702574773
+    boundary_violation_rate: 0.7342029459485045
+    near_decoy_density: 0.6460147297425227
+    decoy_spread: 0.6108937285692205
+    inbatch_hardness: 0.5584058918970091
+    history_stability: 0.5519926351287385
+    score_entropy: 0.6272176756910273
+    score_spread: 0.6108937285692205
+    corpus_query_shift: 0.3401154043938268
+    top10_slope: 0.5065793783604681
+    tail_mass: 0.49342062163953193
+    top1_gap: 0.3539852702574773
+    query_set_scale: 0.935090672373561
+    negative_protocol_hardness: 0.9
+    explicit_negative_dominance: 0.21218181818181825
+    boundary_variance: 0.5960147297425228
+    label_sparsity: 0.6759410810299089
+    relevance_breadth: 0.32405891897009104
+    source_dev_primary: null
+  factors:
+    hardness: 0.7188588378455136
+    uncertainty: 0.6016955810772432
+    stability_need: 0.5715941081029909
+    explicit_need: 0.38498190187186415
+  selected_arl_params:
+    max_prev_targets: 5000
+    max_prev_decoys: 5000
+    min_pos_weight: 0.35
+    boundary_start_epoch: 1
+    threshold_momentum: 0.5
+    fallback_quantile: 0.84
+    exact_scan_max_items: 200000
+    num_bins: 4096
+    min_required_targets: 1
+    margin_lr: 1.0e-05
+    score_mode: query_centered
+    include_inbatch_decoys: true
+    current_pair_weight: 1.0
+    decoy_mode: all
+    hard_decoy_topk: 12
+    constraint_value: 0.07
+    lower_band: 0.07
+    margin_init: 0.009
+    history_pair_weight: 0.035
+    boundary_decoy_weight: 1.6
+    soft_rank_temperature: 0.021
+    max_pos_weight: 1.0
+model:
+  name: e5-small
+  hf_name: intfloat/e5-small-v2
+  fallback_hf_name: intfloat/e5-small
+  init_from: null
+  query_prefix: 'query: '
+  passage_prefix: 'passage: '
+  pooling: mean
+  normalize_embeddings: true
+  max_length_query: 64
+  max_length_doc: 256
+negative_sampling:
+  name: bm25
+  use_bm25: false
+  num_negatives: 1
+  exclude_positives: true
+  bm25:
+    backend: rank_bm25
+    top_k: 100
+    sample_from_top_k: 50
+    cache_path: data/processed/ir
+    refresh: false
+    fallback_to_random: true
+  mixed:
+    bm25_ratio: 0.5
+    random_ratio: 0.5
+training:
+  epochs: 5
+  protocol: fixed_epoch_test_once
+  train_only: false
+  batch_size: 16
+  lr: 2.0e-05
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 1
+  fp16: false
+  eval_every_epoch: false
+  save_best_by: NDCG@10
+  early_stopping:
+    enabled: false
+    patience: 3
+loss_params:
+  arl:
+    max_prev_targets: 5000
+    max_prev_decoys: 5000
+    constraint_value: 0.07
+    lower_band: 0.07
+    min_pos_weight: 0.35
+    boundary_start_epoch: 1
+    threshold_momentum: 0.5
+    fallback_quantile: 0.84
+    exact_scan_max_items: 200000
+    num_bins: 4096
+    min_required_targets: 1
+    margin_init: 0.009
+    margin_lr: 1.0e-05
+    include_inbatch_decoys: true
+    decoy_mode: all
+    score_mode: query_centered
+    hard_decoy_topk: 12
+    soft_rank_temperature: 0.021
+    history_pair_weight: 0.035
+    current_pair_weight: 1.0
+    boundary_decoy_weight: 1.6
+    max_pos_weight: 1.0
+evaluation:
+  full_corpus: true
+  metric_backend: trec_eval
+  top_k: 100
+  query_batch_size: 128
+  corpus_batch_size: 256
+  use_faiss: true
+  chunk_size: 50000
+  metrics:
+  - R@1
+  - R@5
+  - R@10
+  - NDCG@5
+  - NDCG@10
+  - NDCG@20
+  - NDCG@1
+  - R@20
+  - MRR@10
+  - MAP@100
+outputs:
+  save_rankings: true
+  save_model: true
+  output_root: results/ir/fiqa_bm25/seed_44
+  update_registry: false
+_runtime:
+  dataset: fiqa
+  eval_dataset: fiqa
+  loss: arl

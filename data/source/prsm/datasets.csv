@@ -1,0 +1,10 @@
+pride_id,associated_publication,species,description,abbreviation,subdatasets
+-,Basharat et al. 2020,Zebrafish,Zebrafish (Danio rerio),FB_TeO,"FB_TeO_1; FB_TeO_2; FB_TeO_3"
+PXD026178,Melani et al. 2022,Human,"Blood Proteoform Atlas: DS-75 (Platelet; purchased from IR)",Human_L,"Human_L1; Human_L2"
+PXD026128,Melani et al. 2022,Human,"Blood Proteoform Atlas: DS-06 (Neutrophil; peripheral blood)",Human_0,"Human_01; Human_02; Human_03; Human_04"
+PXD029703,McCool et al. 2022,Human,Colorectal cancer cell line,Human_E,"Human_E1; Human_E2"
+PXD042298,Wang et al. 2023b,Mouse,Brain integral membrane,AH,"AH_1; AH_2; AH_3; AH_4; AH_5; AH_6"
+PXD018772,Tetreau et al. 2020,Tenebrio molitor,Tenebrio molitor (mealworm),TM,"TM_1; TM_2"
+PXD017382,Albanese et al. 2020,Pisum sativum,Pisum sativum (pea),PS,"PS_1; PS_2; PS_3; PS_4; PS_5"
+PXD034368,Wang et al. 2023a,Arabidopsis thaliana,Arabidopsis thaliana,AT,"AT_1; AT_2; AT_3; AT_4; AT_5"
+PXD046651,Sadeghi et al. 2024,Yeast,Saccharomyces cerevisiae and Candida albicans,Yeast,"Yeast_1; Yeast_2; Yeast_3; Yeast_4; Yeast_5; Yeast_6"

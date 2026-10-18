@@ -1,0 +1,165 @@
+experiment:
+  name: msmarco_source_boro_seed_43
+  mode: single
+  seed: 43
+  device: cuda
+datasets:
+  selected:
+  - msmarco
+  train_dataset: msmarco
+  train_split: train
+  eval_split: dev
+  max_train_examples: 100000
+  train_random_pool_size: 200000
+  data_root: data/raw/ir
+  cache_dir: data/processed/ir/cache
+  use_title: true
+  allow_train_fallback: false
+  eval_dataset: msmarco
+losses:
+  selected:
+  - arl
+selector:
+  enabled: true
+  diagnostics_source: auto
+  arl_post_overrides: {}
+  diagnostics:
+    top_gap: 0.6180460576706053
+    boundary_violation_rate: 0.38889078846587893
+    near_decoy_density: 0.3819539423293947
+    decoy_spread: 0.35006762146406756
+    inbatch_hardness: 0.4527815769317579
+    history_stability: 0.0
+    score_entropy: 0.45334473079527365
+    score_spread: 0.35006762146406756
+    corpus_query_shift: 0.1604420156162695
+    top10_slope: 0.6877644807388474
+    tail_mass: 0.3122355192611526
+    top1_gap: 0.6180460576706053
+    query_set_scale: 1.0
+    negative_protocol_hardness: 0.25
+    explicit_negative_dominance: 0.1
+    boundary_variance: 0.95
+    label_sparsity: 0.8221842306824212
+    relevance_breadth: 0.17781576931757886
+    source_dev_primary: null
+  factors:
+    hardness: 0.3572973653976368
+    uncertainty: 0.5216638173011816
+    stability_need: 0.9330460576706053
+    explicit_need: 0.2368274881126759
+  selected_arl_params:
+    max_prev_targets: 5000
+    max_prev_decoys: 5000
+    min_pos_weight: 0.35
+    boundary_start_epoch: 1
+    threshold_momentum: 0.5
+    fallback_quantile: 0.9
+    exact_scan_max_items: 200000
+    num_bins: 4096
+    min_required_targets: 1
+    margin_lr: 1.0e-05
+    score_mode: query_centered
+    include_inbatch_decoys: true
+    current_pair_weight: 1.0
+    decoy_mode: all
+    hard_decoy_topk: 12
+    constraint_value: 0.15
+    lower_band: 0.08
+    margin_init: 0.04
+    history_pair_weight: 0.52
+    boundary_decoy_weight: 1.0
+    soft_rank_temperature: 0.05
+model:
+  name: e5-small
+  hf_name: intfloat/e5-small-v2
+  fallback_hf_name: intfloat/e5-small
+  init_from: null
+  query_prefix: 'query: '
+  passage_prefix: 'passage: '
+  pooling: mean
+  normalize_embeddings: true
+  max_length_query: 64
+  max_length_doc: 256
+negative_sampling:
+  name: random
+  use_bm25: false
+  num_negatives: 1
+  exclude_positives: true
+  bm25:
+    backend: rank_bm25
+    top_k: 100
+    sample_from_top_k: 50
+    cache_path: data/processed/ir
+    refresh: false
+    fallback_to_random: true
+  mixed:
+    bm25_ratio: 0.5
+    random_ratio: 0.5
+training:
+  epochs: 3
+  protocol: source_only_checkpoint_then_target_test_once
+  train_only: true
+  batch_size: 16
+  lr: 2.0e-05
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 1
+  fp16: true
+  eval_every_epoch: false
+  save_best_by: NDCG@10
+  early_stopping:
+    enabled: false
+    patience: 0
+loss_params:
+  arl:
+    max_prev_targets: 5000
+    max_prev_decoys: 5000
+    constraint_value: 0.15
+    lower_band: 0.08
+    min_pos_weight: 0.35
+    boundary_start_epoch: 1
+    threshold_momentum: 0.5
+    fallback_quantile: 0.9
+    exact_scan_max_items: 200000
+    num_bins: 4096
+    min_required_targets: 1
+    margin_init: 0.04
+    margin_lr: 1.0e-05
+    include_inbatch_decoys: true
+    decoy_mode: all
+    score_mode: query_centered
+    hard_decoy_topk: 12
+    soft_rank_temperature: 0.05
+    history_pair_weight: 0.52
+    current_pair_weight: 1.0
+    boundary_decoy_weight: 1.0
+evaluation:
+  full_corpus: true
+  metric_backend: custom
+  top_k: 100
+  query_batch_size: 128
+  corpus_batch_size: 512
+  use_faiss: true
+  chunk_size: 50000
+  metrics:
+  - R@1
+  - R@5
+  - R@10
+  - NDCG@5
+  - NDCG@10
+  - NDCG@20
+  - NDCG@1
+  - R@20
+  - MRR@10
+  - MAP@100
+outputs:
+  save_rankings: true
+  save_model: true
+  output_root: results/ir/msmarco_source/seed_43
+  update_registry: false
+_runtime:
+  dataset: msmarco
+  eval_dataset: msmarco
+  loss: arl

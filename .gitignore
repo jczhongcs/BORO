@@ -1,0 +1,42 @@
+# Operating-system files
+.DS_Store
+
+# Python caches and local tooling state
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Raw and processed experiment data are retained locally and described in the
+# data-source documentation; large reproducibility inputs are not committed to
+# the public Git history.
+/data/raw/
+/data/pretrained/
+/data/processed/*
+!/data/processed/prsm/
+/data/processed/prsm/*
+!/data/processed/prsm/train_files.csv
+!/data/processed/prsm/test_files.csv
+
+# Large result artifacts remain in the checkout but are kept out of the Git
+# snapshot. Source tables under data/source and rendered figures remain tracked.
+/results/**/*.csv
+/results/**/*.tsv
+/results/**/*.npz
+/results/**/*.pkl
+/results/**/*.joblib
+/results/**/*.safetensors
+/results/**/*.pt
+/results/**/*.bin
+/results/**/*.ckpt
+/results/**/*.gz
+
+# Local editor and temporary files
+.venv/
+venv/
+*.swp
+*.swo

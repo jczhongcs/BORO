@@ -1,0 +1,101 @@
+experiment:
+  name: msmarco_to_dbpedia-entity_adnce_seed_46
+  mode: single
+  seed: 46
+  device: cuda
+datasets:
+  selected:
+  - dbpedia-entity
+  train_dataset: msmarco
+  train_split: train
+  eval_split: test
+  max_train_examples: 100000
+  train_random_pool_size: 200000
+  data_root: data/raw/ir
+  cache_dir: data/processed/ir/cache
+  use_title: true
+  allow_train_fallback: false
+  eval_dataset: dbpedia-entity
+losses:
+  selected:
+  - adnce
+selector:
+  enabled: false
+  diagnostics_source: null
+  arl_post_overrides: {}
+model:
+  name: e5-small
+  hf_name: intfloat/e5-small-v2
+  fallback_hf_name: intfloat/e5-small
+  init_from: results/ir/msmarco_source/adnce/seed_46/last_model
+  query_prefix: 'query: '
+  passage_prefix: 'passage: '
+  pooling: mean
+  normalize_embeddings: true
+  max_length_query: 64
+  max_length_doc: 256
+negative_sampling:
+  name: random
+  use_bm25: false
+  num_negatives: 1
+  exclude_positives: true
+  bm25:
+    backend: rank_bm25
+    top_k: 100
+    sample_from_top_k: 50
+    cache_path: data/processed/ir
+    refresh: false
+    fallback_to_random: true
+  mixed:
+    bm25_ratio: 0.5
+    random_ratio: 0.5
+training:
+  epochs: 0
+  protocol: source_only_checkpoint_then_target_test_once
+  train_only: false
+  batch_size: 16
+  lr: 2.0e-05
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  gradient_accumulation_steps: 1
+  fp16: true
+  eval_every_epoch: false
+  save_best_by: NDCG@10
+  early_stopping:
+    enabled: false
+    patience: 0
+loss_params:
+  adnce:
+    temperature: 0.07
+    mu: 0.4
+    sigma: 1.0
+    hard_negative_weight: 0.0
+evaluation:
+  full_corpus: true
+  metric_backend: custom
+  top_k: 100
+  query_batch_size: 128
+  corpus_batch_size: 512
+  use_faiss: true
+  chunk_size: 50000
+  metrics:
+  - R@1
+  - R@5
+  - R@10
+  - NDCG@5
+  - NDCG@10
+  - NDCG@20
+  - NDCG@1
+  - R@20
+  - MRR@10
+  - MAP@100
+outputs:
+  save_rankings: true
+  save_model: false
+  output_root: results/ir/msmarco_to_dbpedia-entity/adnce/seed_46
+  update_registry: false
+_runtime:
+  dataset: msmarco
+  eval_dataset: dbpedia-entity
+  loss: adnce

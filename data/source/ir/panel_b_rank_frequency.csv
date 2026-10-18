@@ -1,0 +1,1621 @@
+setting_index,setting,group,dataset,sampler,metric,method,mean_rank,min_rank,max_rank,n_seeds,tied_seed_count,rank,seed_count,seed_share_percent
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,InfoNCE,2.4,2,3,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,InfoNCE,2.4,2,3,5,0,2,3,60.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,InfoNCE,2.4,2,3,5,0,3,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,InfoNCE,2.4,2,3,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,InfoNCE,2.4,2,3,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,InfoNCE,2.4,2,3,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,Triplet,5.0,5,5,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,Triplet,5.0,5,5,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,Triplet,5.0,5,5,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,Triplet,5.0,5,5,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,Triplet,5.0,5,5,5,0,5,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,Triplet,5.0,5,5,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,ADNCE,3.2,2,4,5,1,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,ADNCE,3.2,2,4,5,1,2,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,ADNCE,3.2,2,4,5,1,3,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,ADNCE,3.2,2,4,5,1,4,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,ADNCE,3.2,2,4,5,1,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,ADNCE,3.2,2,4,5,1,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,AoE,3.2,2,4,5,1,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,AoE,3.2,2,4,5,1,2,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,AoE,3.2,2,4,5,1,3,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,AoE,3.2,2,4,5,1,4,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,AoE,3.2,2,4,5,1,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,AoE,3.2,2,4,5,1,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,BORO,1.0,1,1,5,0,1,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,BORO,1.0,1,1,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,BORO,1.0,1,1,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,BORO,1.0,1,1,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,BORO,1.0,1,1,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,R@10,BORO,1.0,1,1,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,InfoNCE,2.2,2,3,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,InfoNCE,2.2,2,3,5,0,2,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,InfoNCE,2.2,2,3,5,0,3,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,InfoNCE,2.2,2,3,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,InfoNCE,2.2,2,3,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,InfoNCE,2.2,2,3,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,Triplet,5.0,5,5,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,Triplet,5.0,5,5,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,Triplet,5.0,5,5,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,Triplet,5.0,5,5,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,Triplet,5.0,5,5,5,0,5,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,Triplet,5.0,5,5,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,ADNCE,3.6,2,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,ADNCE,3.6,2,4,5,0,2,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,ADNCE,3.6,2,4,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,ADNCE,3.6,2,4,5,0,4,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,ADNCE,3.6,2,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,ADNCE,3.6,2,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,AoE,3.2,3,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,AoE,3.2,3,4,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,AoE,3.2,3,4,5,0,3,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,AoE,3.2,3,4,5,0,4,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,AoE,3.2,3,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,AoE,3.2,3,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,BORO,1.0,1,1,5,0,1,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,BORO,1.0,1,1,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,BORO,1.0,1,1,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,BORO,1.0,1,1,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,BORO,1.0,1,1,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@5,BORO,1.0,1,1,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,InfoNCE,2.0,1,3,5,0,1,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,InfoNCE,2.0,1,3,5,0,2,3,60.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,InfoNCE,2.0,1,3,5,0,3,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,InfoNCE,2.0,1,3,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,InfoNCE,2.0,1,3,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,InfoNCE,2.0,1,3,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,Triplet,5.0,5,5,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,Triplet,5.0,5,5,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,Triplet,5.0,5,5,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,Triplet,5.0,5,5,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,Triplet,5.0,5,5,5,0,5,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,Triplet,5.0,5,5,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,ADNCE,3.8,3,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,ADNCE,3.8,3,4,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,ADNCE,3.8,3,4,5,0,3,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,ADNCE,3.8,3,4,5,0,4,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,ADNCE,3.8,3,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,ADNCE,3.8,3,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,AoE,3.0,2,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,AoE,3.0,2,4,5,0,2,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,AoE,3.0,2,4,5,0,3,3,60.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,AoE,3.0,2,4,5,0,4,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,AoE,3.0,2,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,AoE,3.0,2,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,BORO,1.2,1,2,5,0,1,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,BORO,1.2,1,2,5,0,2,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,BORO,1.2,1,2,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,BORO,1.2,1,2,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,BORO,1.2,1,2,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@10,BORO,1.2,1,2,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,InfoNCE,2.2,1,3,5,0,1,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,InfoNCE,2.2,1,3,5,0,2,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,InfoNCE,2.2,1,3,5,0,3,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,InfoNCE,2.2,1,3,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,InfoNCE,2.2,1,3,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,InfoNCE,2.2,1,3,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,Triplet,5.0,5,5,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,Triplet,5.0,5,5,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,Triplet,5.0,5,5,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,Triplet,5.0,5,5,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,Triplet,5.0,5,5,5,0,5,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,Triplet,5.0,5,5,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,ADNCE,3.8,3,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,ADNCE,3.8,3,4,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,ADNCE,3.8,3,4,5,0,3,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,ADNCE,3.8,3,4,5,0,4,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,ADNCE,3.8,3,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,ADNCE,3.8,3,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,AoE,2.8,2,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,AoE,2.8,2,4,5,0,2,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,AoE,2.8,2,4,5,0,3,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,AoE,2.8,2,4,5,0,4,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,AoE,2.8,2,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,AoE,2.8,2,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,BORO,1.2,1,2,5,0,1,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,BORO,1.2,1,2,5,0,2,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,BORO,1.2,1,2,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,BORO,1.2,1,2,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,BORO,1.2,1,2,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,NDCG@20,BORO,1.2,1,2,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,InfoNCE,2.4,1,4,5,0,1,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,InfoNCE,2.4,1,4,5,0,2,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,InfoNCE,2.4,1,4,5,0,3,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,InfoNCE,2.4,1,4,5,0,4,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,InfoNCE,2.4,1,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,InfoNCE,2.4,1,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,Triplet,5.0,5,5,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,Triplet,5.0,5,5,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,Triplet,5.0,5,5,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,Triplet,5.0,5,5,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,Triplet,5.0,5,5,5,0,5,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,Triplet,5.0,5,5,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,ADNCE,3.6,3,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,ADNCE,3.6,3,4,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,ADNCE,3.6,3,4,5,0,3,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,ADNCE,3.6,3,4,5,0,4,3,60.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,ADNCE,3.6,3,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,ADNCE,3.6,3,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,AoE,2.8,2,4,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,AoE,2.8,2,4,5,0,2,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,AoE,2.8,2,4,5,0,3,2,40.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,AoE,2.8,2,4,5,0,4,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,AoE,2.8,2,4,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,AoE,2.8,2,4,5,0,6,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,BORO,1.2,1,2,5,0,1,4,80.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,BORO,1.2,1,2,5,0,2,1,20.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,BORO,1.2,1,2,5,0,3,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,BORO,1.2,1,2,5,0,4,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,BORO,1.2,1,2,5,0,5,0,0.0
+0,in_domain__random__scifact,In-domain / random,SciFact,random,MRR@10,BORO,1.2,1,2,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,InfoNCE,2.4,2,3,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,InfoNCE,2.4,2,3,5,0,2,3,60.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,InfoNCE,2.4,2,3,5,0,3,2,40.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,InfoNCE,2.4,2,3,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,InfoNCE,2.4,2,3,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,InfoNCE,2.4,2,3,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,Triplet,5.0,5,5,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,Triplet,5.0,5,5,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,Triplet,5.0,5,5,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,Triplet,5.0,5,5,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,Triplet,5.0,5,5,5,0,5,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,Triplet,5.0,5,5,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,ADNCE,4.0,4,4,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,ADNCE,4.0,4,4,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,ADNCE,4.0,4,4,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,ADNCE,4.0,4,4,5,0,4,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,ADNCE,4.0,4,4,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,ADNCE,4.0,4,4,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,AoE,2.6,2,3,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,AoE,2.6,2,3,5,0,2,2,40.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,AoE,2.6,2,3,5,0,3,3,60.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,AoE,2.6,2,3,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,AoE,2.6,2,3,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,AoE,2.6,2,3,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,BORO,1.0,1,1,5,0,1,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,BORO,1.0,1,1,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,BORO,1.0,1,1,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,BORO,1.0,1,1,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,BORO,1.0,1,1,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,R@10,BORO,1.0,1,1,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,InfoNCE,2.0,2,2,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,InfoNCE,2.0,2,2,5,0,2,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,InfoNCE,2.0,2,2,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,InfoNCE,2.0,2,2,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,InfoNCE,2.0,2,2,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,InfoNCE,2.0,2,2,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,Triplet,5.0,5,5,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,Triplet,5.0,5,5,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,Triplet,5.0,5,5,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,Triplet,5.0,5,5,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,Triplet,5.0,5,5,5,0,5,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,Triplet,5.0,5,5,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,ADNCE,4.0,4,4,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,ADNCE,4.0,4,4,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,ADNCE,4.0,4,4,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,ADNCE,4.0,4,4,5,0,4,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,ADNCE,4.0,4,4,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,ADNCE,4.0,4,4,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,AoE,3.0,3,3,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,AoE,3.0,3,3,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,AoE,3.0,3,3,5,0,3,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,AoE,3.0,3,3,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,AoE,3.0,3,3,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,AoE,3.0,3,3,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,BORO,1.0,1,1,5,0,1,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,BORO,1.0,1,1,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,BORO,1.0,1,1,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,BORO,1.0,1,1,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,BORO,1.0,1,1,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@5,BORO,1.0,1,1,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,Triplet,5.0,5,5,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,Triplet,5.0,5,5,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,Triplet,5.0,5,5,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,Triplet,5.0,5,5,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,Triplet,5.0,5,5,5,0,5,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,Triplet,5.0,5,5,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,ADNCE,4.0,4,4,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,ADNCE,4.0,4,4,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,ADNCE,4.0,4,4,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,ADNCE,4.0,4,4,5,0,4,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,ADNCE,4.0,4,4,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,ADNCE,4.0,4,4,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,AoE,3.0,3,3,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,AoE,3.0,3,3,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,AoE,3.0,3,3,5,0,3,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,AoE,3.0,3,3,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,AoE,3.0,3,3,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,AoE,3.0,3,3,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,BORO,1.0,1,1,5,0,1,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,BORO,1.0,1,1,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,BORO,1.0,1,1,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,BORO,1.0,1,1,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,BORO,1.0,1,1,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@10,BORO,1.0,1,1,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,InfoNCE,2.0,2,2,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,InfoNCE,2.0,2,2,5,0,2,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,InfoNCE,2.0,2,2,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,InfoNCE,2.0,2,2,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,InfoNCE,2.0,2,2,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,InfoNCE,2.0,2,2,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,Triplet,5.0,5,5,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,Triplet,5.0,5,5,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,Triplet,5.0,5,5,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,Triplet,5.0,5,5,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,Triplet,5.0,5,5,5,0,5,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,Triplet,5.0,5,5,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,ADNCE,4.0,4,4,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,ADNCE,4.0,4,4,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,ADNCE,4.0,4,4,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,ADNCE,4.0,4,4,5,0,4,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,ADNCE,4.0,4,4,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,ADNCE,4.0,4,4,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,AoE,3.0,3,3,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,AoE,3.0,3,3,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,AoE,3.0,3,3,5,0,3,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,AoE,3.0,3,3,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,AoE,3.0,3,3,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,AoE,3.0,3,3,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,BORO,1.0,1,1,5,0,1,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,BORO,1.0,1,1,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,BORO,1.0,1,1,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,BORO,1.0,1,1,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,BORO,1.0,1,1,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,NDCG@20,BORO,1.0,1,1,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,Triplet,5.0,5,5,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,Triplet,5.0,5,5,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,Triplet,5.0,5,5,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,Triplet,5.0,5,5,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,Triplet,5.0,5,5,5,0,5,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,Triplet,5.0,5,5,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,ADNCE,4.0,4,4,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,ADNCE,4.0,4,4,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,ADNCE,4.0,4,4,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,ADNCE,4.0,4,4,5,0,4,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,ADNCE,4.0,4,4,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,ADNCE,4.0,4,4,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,AoE,3.0,3,3,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,AoE,3.0,3,3,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,AoE,3.0,3,3,5,0,3,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,AoE,3.0,3,3,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,AoE,3.0,3,3,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,AoE,3.0,3,3,5,0,6,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,BORO,1.0,1,1,5,0,1,5,100.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,BORO,1.0,1,1,5,0,2,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,BORO,1.0,1,1,5,0,3,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,BORO,1.0,1,1,5,0,4,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,BORO,1.0,1,1,5,0,5,0,0.0
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,MRR@10,BORO,1.0,1,1,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,InfoNCE,2.8,2,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,InfoNCE,2.8,2,4,5,0,2,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,InfoNCE,2.8,2,4,5,0,3,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,InfoNCE,2.8,2,4,5,0,4,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,InfoNCE,2.8,2,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,InfoNCE,2.8,2,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,Triplet,5.0,5,5,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,Triplet,5.0,5,5,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,Triplet,5.0,5,5,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,Triplet,5.0,5,5,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,Triplet,5.0,5,5,5,0,5,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,Triplet,5.0,5,5,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,ADNCE,3.0,2,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,ADNCE,3.0,2,4,5,0,2,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,ADNCE,3.0,2,4,5,0,3,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,ADNCE,3.0,2,4,5,0,4,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,ADNCE,3.0,2,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,ADNCE,3.0,2,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,AoE,3.2,2,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,AoE,3.2,2,4,5,0,2,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,AoE,3.2,2,4,5,0,3,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,AoE,3.2,2,4,5,0,4,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,AoE,3.2,2,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,AoE,3.2,2,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,BORO,1.0,1,1,5,0,1,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,BORO,1.0,1,1,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,BORO,1.0,1,1,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,BORO,1.0,1,1,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,BORO,1.0,1,1,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,R@10,BORO,1.0,1,1,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,InfoNCE,1.8,1,2,5,0,1,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,InfoNCE,1.8,1,2,5,0,2,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,InfoNCE,1.8,1,2,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,InfoNCE,1.8,1,2,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,InfoNCE,1.8,1,2,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,InfoNCE,1.8,1,2,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,Triplet,5.0,5,5,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,Triplet,5.0,5,5,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,Triplet,5.0,5,5,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,Triplet,5.0,5,5,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,Triplet,5.0,5,5,5,0,5,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,Triplet,5.0,5,5,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,ADNCE,3.8,3,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,ADNCE,3.8,3,4,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,ADNCE,3.8,3,4,5,0,3,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,ADNCE,3.8,3,4,5,0,4,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,ADNCE,3.8,3,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,ADNCE,3.8,3,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,AoE,3.2,3,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,AoE,3.2,3,4,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,AoE,3.2,3,4,5,0,3,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,AoE,3.2,3,4,5,0,4,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,AoE,3.2,3,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,AoE,3.2,3,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,BORO,1.2,1,2,5,0,1,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,BORO,1.2,1,2,5,0,2,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,BORO,1.2,1,2,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,BORO,1.2,1,2,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,BORO,1.2,1,2,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@5,BORO,1.2,1,2,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,InfoNCE,2.4,2,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,InfoNCE,2.4,2,4,5,0,2,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,InfoNCE,2.4,2,4,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,InfoNCE,2.4,2,4,5,0,4,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,InfoNCE,2.4,2,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,InfoNCE,2.4,2,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,Triplet,5.0,5,5,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,Triplet,5.0,5,5,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,Triplet,5.0,5,5,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,Triplet,5.0,5,5,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,Triplet,5.0,5,5,5,0,5,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,Triplet,5.0,5,5,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,ADNCE,3.6,3,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,ADNCE,3.6,3,4,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,ADNCE,3.6,3,4,5,0,3,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,ADNCE,3.6,3,4,5,0,4,3,60.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,ADNCE,3.6,3,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,ADNCE,3.6,3,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,AoE,3.0,2,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,AoE,3.0,2,4,5,0,2,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,AoE,3.0,2,4,5,0,3,3,60.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,AoE,3.0,2,4,5,0,4,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,AoE,3.0,2,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,AoE,3.0,2,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,BORO,1.0,1,1,5,0,1,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,BORO,1.0,1,1,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,BORO,1.0,1,1,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,BORO,1.0,1,1,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,BORO,1.0,1,1,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@10,BORO,1.0,1,1,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,InfoNCE,2.2,2,3,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,InfoNCE,2.2,2,3,5,0,2,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,InfoNCE,2.2,2,3,5,0,3,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,InfoNCE,2.2,2,3,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,InfoNCE,2.2,2,3,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,InfoNCE,2.2,2,3,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,Triplet,5.0,5,5,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,Triplet,5.0,5,5,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,Triplet,5.0,5,5,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,Triplet,5.0,5,5,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,Triplet,5.0,5,5,5,0,5,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,Triplet,5.0,5,5,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,ADNCE,4.0,4,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,ADNCE,4.0,4,4,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,ADNCE,4.0,4,4,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,ADNCE,4.0,4,4,5,0,4,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,ADNCE,4.0,4,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,ADNCE,4.0,4,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,AoE,2.8,2,3,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,AoE,2.8,2,3,5,0,2,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,AoE,2.8,2,3,5,0,3,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,AoE,2.8,2,3,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,AoE,2.8,2,3,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,AoE,2.8,2,3,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,BORO,1.0,1,1,5,0,1,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,BORO,1.0,1,1,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,BORO,1.0,1,1,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,BORO,1.0,1,1,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,BORO,1.0,1,1,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,NDCG@20,BORO,1.0,1,1,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,InfoNCE,2.2,1,4,5,0,1,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,InfoNCE,2.2,1,4,5,0,2,3,60.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,InfoNCE,2.2,1,4,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,InfoNCE,2.2,1,4,5,0,4,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,InfoNCE,2.2,1,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,InfoNCE,2.2,1,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,Triplet,5.0,5,5,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,Triplet,5.0,5,5,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,Triplet,5.0,5,5,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,Triplet,5.0,5,5,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,Triplet,5.0,5,5,5,0,5,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,Triplet,5.0,5,5,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,ADNCE,3.0,2,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,ADNCE,3.0,2,4,5,0,2,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,ADNCE,3.0,2,4,5,0,3,3,60.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,ADNCE,3.0,2,4,5,0,4,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,ADNCE,3.0,2,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,ADNCE,3.0,2,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,AoE,3.2,2,4,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,AoE,3.2,2,4,5,0,2,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,AoE,3.2,2,4,5,0,3,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,AoE,3.2,2,4,5,0,4,2,40.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,AoE,3.2,2,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,AoE,3.2,2,4,5,0,6,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,BORO,1.6,1,4,5,0,1,4,80.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,BORO,1.6,1,4,5,0,2,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,BORO,1.6,1,4,5,0,3,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,BORO,1.6,1,4,5,0,4,1,20.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,BORO,1.6,1,4,5,0,5,0,0.0
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,MRR@10,BORO,1.6,1,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,InfoNCE,2.4,1,3,5,0,1,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,InfoNCE,2.4,1,3,5,0,2,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,InfoNCE,2.4,1,3,5,0,3,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,InfoNCE,2.4,1,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,InfoNCE,2.4,1,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,InfoNCE,2.4,1,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,Triplet,5.0,5,5,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,Triplet,5.0,5,5,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,Triplet,5.0,5,5,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,Triplet,5.0,5,5,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,Triplet,5.0,5,5,5,0,5,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,Triplet,5.0,5,5,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,ADNCE,3.4,2,4,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,ADNCE,3.4,2,4,5,0,2,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,ADNCE,3.4,2,4,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,ADNCE,3.4,2,4,5,0,4,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,ADNCE,3.4,2,4,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,ADNCE,3.4,2,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,AoE,2.8,2,4,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,AoE,2.8,2,4,5,0,2,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,AoE,2.8,2,4,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,AoE,2.8,2,4,5,0,4,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,AoE,2.8,2,4,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,AoE,2.8,2,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,BORO,1.4,1,3,5,0,1,4,80.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,BORO,1.4,1,3,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,BORO,1.4,1,3,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,BORO,1.4,1,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,BORO,1.4,1,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,R@10,BORO,1.4,1,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,InfoNCE,2.6,2,3,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,InfoNCE,2.6,2,3,5,0,2,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,InfoNCE,2.6,2,3,5,0,3,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,InfoNCE,2.6,2,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,InfoNCE,2.6,2,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,InfoNCE,2.6,2,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,Triplet,5.0,5,5,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,Triplet,5.0,5,5,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,Triplet,5.0,5,5,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,Triplet,5.0,5,5,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,Triplet,5.0,5,5,5,0,5,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,Triplet,5.0,5,5,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,4,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,AoE,1.8,1,3,5,0,1,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,AoE,1.8,1,3,5,0,2,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,AoE,1.8,1,3,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,AoE,1.8,1,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,AoE,1.8,1,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,AoE,1.8,1,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,BORO,1.6,1,3,5,0,1,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,BORO,1.6,1,3,5,0,2,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,BORO,1.6,1,3,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,BORO,1.6,1,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,BORO,1.6,1,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@5,BORO,1.6,1,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,InfoNCE,2.8,2,4,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,InfoNCE,2.8,2,4,5,0,2,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,InfoNCE,2.8,2,4,5,0,3,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,InfoNCE,2.8,2,4,5,0,4,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,InfoNCE,2.8,2,4,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,InfoNCE,2.8,2,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,Triplet,5.0,5,5,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,Triplet,5.0,5,5,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,Triplet,5.0,5,5,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,Triplet,5.0,5,5,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,Triplet,5.0,5,5,5,0,5,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,Triplet,5.0,5,5,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,4,4,80.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,AoE,2.0,1,3,5,0,1,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,AoE,2.0,1,3,5,0,2,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,AoE,2.0,1,3,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,AoE,2.0,1,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,AoE,2.0,1,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,AoE,2.0,1,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,BORO,1.4,1,3,5,0,1,4,80.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,BORO,1.4,1,3,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,BORO,1.4,1,3,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,BORO,1.4,1,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,BORO,1.4,1,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@10,BORO,1.4,1,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,InfoNCE,3.0,3,3,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,InfoNCE,3.0,3,3,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,InfoNCE,3.0,3,3,5,0,3,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,InfoNCE,3.0,3,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,InfoNCE,3.0,3,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,InfoNCE,3.0,3,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,Triplet,5.0,5,5,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,Triplet,5.0,5,5,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,Triplet,5.0,5,5,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,Triplet,5.0,5,5,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,Triplet,5.0,5,5,5,0,5,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,Triplet,5.0,5,5,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,ADNCE,4.0,4,4,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,ADNCE,4.0,4,4,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,ADNCE,4.0,4,4,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,ADNCE,4.0,4,4,5,0,4,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,ADNCE,4.0,4,4,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,ADNCE,4.0,4,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,AoE,1.4,1,2,5,0,1,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,AoE,1.4,1,2,5,0,2,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,AoE,1.4,1,2,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,AoE,1.4,1,2,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,AoE,1.4,1,2,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,AoE,1.4,1,2,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,BORO,1.6,1,2,5,0,1,2,40.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,BORO,1.6,1,2,5,0,2,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,BORO,1.6,1,2,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,BORO,1.6,1,2,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,BORO,1.6,1,2,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,NDCG@20,BORO,1.6,1,2,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,InfoNCE,2.8,2,3,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,InfoNCE,2.8,2,3,5,0,2,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,InfoNCE,2.8,2,3,5,0,3,4,80.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,InfoNCE,2.8,2,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,InfoNCE,2.8,2,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,InfoNCE,2.8,2,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,Triplet,5.0,5,5,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,Triplet,5.0,5,5,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,Triplet,5.0,5,5,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,Triplet,5.0,5,5,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,Triplet,5.0,5,5,5,0,5,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,Triplet,5.0,5,5,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,ADNCE,4.0,4,4,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,ADNCE,4.0,4,4,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,ADNCE,4.0,4,4,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,ADNCE,4.0,4,4,5,0,4,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,ADNCE,4.0,4,4,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,ADNCE,4.0,4,4,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,AoE,2.0,1,3,5,0,1,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,AoE,2.0,1,3,5,0,2,3,60.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,AoE,2.0,1,3,5,0,3,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,AoE,2.0,1,3,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,AoE,2.0,1,3,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,AoE,2.0,1,3,5,0,6,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,BORO,1.2,1,2,5,0,1,4,80.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,BORO,1.2,1,2,5,0,2,1,20.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,BORO,1.2,1,2,5,0,3,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,BORO,1.2,1,2,5,0,4,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,BORO,1.2,1,2,5,0,5,0,0.0
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,MRR@10,BORO,1.2,1,2,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,Triplet,5.8,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,Triplet,5.8,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,Triplet,5.8,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,Triplet,5.8,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,Triplet,5.8,5,6,5,0,5,1,20.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,Triplet,5.8,5,6,5,0,6,4,80.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,ADNCE,3.6,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,ADNCE,3.6,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,ADNCE,3.6,3,4,5,0,3,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,ADNCE,3.6,3,4,5,0,4,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,ADNCE,3.6,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,ADNCE,3.6,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,AoE,3.4,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,AoE,3.4,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,AoE,3.4,3,4,5,0,3,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,AoE,3.4,3,4,5,0,4,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,AoE,3.4,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,AoE,3.4,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,DMCL,5.2,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,DMCL,5.2,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,DMCL,5.2,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,DMCL,5.2,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,DMCL,5.2,5,6,5,0,5,4,80.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,DMCL,5.2,5,6,5,0,6,1,20.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,BORO,1.0,1,1,5,0,1,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,BORO,1.0,1,1,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,BORO,1.0,1,1,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,BORO,1.0,1,1,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,BORO,1.0,1,1,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,R@10,BORO,1.0,1,1,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,2,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,Triplet,5.4,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,Triplet,5.4,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,Triplet,5.4,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,Triplet,5.4,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,Triplet,5.4,5,6,5,0,5,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,Triplet,5.4,5,6,5,0,6,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,4,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,ADNCE,4.0,4,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,AoE,3.0,3,3,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,AoE,3.0,3,3,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,AoE,3.0,3,3,5,0,3,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,AoE,3.0,3,3,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,AoE,3.0,3,3,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,AoE,3.0,3,3,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,DMCL,5.6,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,DMCL,5.6,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,DMCL,5.6,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,DMCL,5.6,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,DMCL,5.6,5,6,5,0,5,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,DMCL,5.6,5,6,5,0,6,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,BORO,1.0,1,1,5,0,1,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,BORO,1.0,1,1,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,BORO,1.0,1,1,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,BORO,1.0,1,1,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,BORO,1.0,1,1,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@5,BORO,1.0,1,1,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,Triplet,5.6,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,Triplet,5.6,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,Triplet,5.6,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,Triplet,5.6,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,Triplet,5.6,5,6,5,0,5,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,Triplet,5.6,5,6,5,0,6,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,3,1,20.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,4,4,80.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,ADNCE,3.8,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,AoE,3.2,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,AoE,3.2,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,AoE,3.2,3,4,5,0,3,4,80.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,AoE,3.2,3,4,5,0,4,1,20.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,AoE,3.2,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,AoE,3.2,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,DMCL,5.4,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,DMCL,5.4,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,DMCL,5.4,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,DMCL,5.4,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,DMCL,5.4,5,6,5,0,5,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,DMCL,5.4,5,6,5,0,6,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,BORO,1.0,1,1,5,0,1,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,BORO,1.0,1,1,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,BORO,1.0,1,1,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,BORO,1.0,1,1,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,BORO,1.0,1,1,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@10,BORO,1.0,1,1,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,2,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,Triplet,5.6,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,Triplet,5.6,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,Triplet,5.6,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,Triplet,5.6,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,Triplet,5.6,5,6,5,0,5,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,Triplet,5.6,5,6,5,0,6,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,ADNCE,3.6,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,ADNCE,3.6,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,ADNCE,3.6,3,4,5,0,3,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,ADNCE,3.6,3,4,5,0,4,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,ADNCE,3.6,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,ADNCE,3.6,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,AoE,3.4,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,AoE,3.4,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,AoE,3.4,3,4,5,0,3,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,AoE,3.4,3,4,5,0,4,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,AoE,3.4,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,AoE,3.4,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,DMCL,5.4,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,DMCL,5.4,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,DMCL,5.4,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,DMCL,5.4,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,DMCL,5.4,5,6,5,0,5,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,DMCL,5.4,5,6,5,0,6,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,BORO,1.0,1,1,5,0,1,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,BORO,1.0,1,1,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,BORO,1.0,1,1,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,BORO,1.0,1,1,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,BORO,1.0,1,1,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,NDCG@20,BORO,1.0,1,1,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,Triplet,5.6,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,Triplet,5.6,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,Triplet,5.6,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,Triplet,5.6,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,Triplet,5.6,5,6,5,0,5,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,Triplet,5.6,5,6,5,0,6,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,ADNCE,3.8,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,ADNCE,3.8,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,ADNCE,3.8,3,4,5,0,3,1,20.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,ADNCE,3.8,3,4,5,0,4,4,80.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,ADNCE,3.8,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,ADNCE,3.8,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,AoE,3.2,3,4,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,AoE,3.2,3,4,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,AoE,3.2,3,4,5,0,3,4,80.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,AoE,3.2,3,4,5,0,4,1,20.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,AoE,3.2,3,4,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,AoE,3.2,3,4,5,0,6,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,DMCL,5.4,5,6,5,0,1,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,DMCL,5.4,5,6,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,DMCL,5.4,5,6,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,DMCL,5.4,5,6,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,DMCL,5.4,5,6,5,0,5,3,60.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,DMCL,5.4,5,6,5,0,6,2,40.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,BORO,1.0,1,1,5,0,1,5,100.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,BORO,1.0,1,1,5,0,2,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,BORO,1.0,1,1,5,0,3,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,BORO,1.0,1,1,5,0,4,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,BORO,1.0,1,1,5,0,5,0,0.0
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,MRR@10,BORO,1.0,1,1,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,InfoNCE,2.4,1,3,5,0,1,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,InfoNCE,2.4,1,3,5,0,2,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,InfoNCE,2.4,1,3,5,0,3,3,60.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,InfoNCE,2.4,1,3,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,InfoNCE,2.4,1,3,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,InfoNCE,2.4,1,3,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,Triplet,5.0,5,5,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,Triplet,5.0,5,5,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,Triplet,5.0,5,5,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,Triplet,5.0,5,5,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,Triplet,5.0,5,5,5,0,5,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,Triplet,5.0,5,5,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,ADNCE,3.4,2,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,ADNCE,3.4,2,4,5,0,2,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,ADNCE,3.4,2,4,5,0,3,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,ADNCE,3.4,2,4,5,0,4,3,60.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,ADNCE,3.4,2,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,ADNCE,3.4,2,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,AoE,3.0,2,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,AoE,3.0,2,4,5,0,2,2,40.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,AoE,3.0,2,4,5,0,3,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,AoE,3.0,2,4,5,0,4,2,40.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,AoE,3.0,2,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,AoE,3.0,2,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,BORO,1.2,1,2,5,0,1,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,BORO,1.2,1,2,5,0,2,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,BORO,1.2,1,2,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,BORO,1.2,1,2,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,BORO,1.2,1,2,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,R@10,BORO,1.2,1,2,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,2,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,InfoNCE,2.0,2,2,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,Triplet,5.0,5,5,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,Triplet,5.0,5,5,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,Triplet,5.0,5,5,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,Triplet,5.0,5,5,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,Triplet,5.0,5,5,5,0,5,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,Triplet,5.0,5,5,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,ADNCE,3.2,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,ADNCE,3.2,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,ADNCE,3.2,3,4,5,0,3,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,ADNCE,3.2,3,4,5,0,4,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,ADNCE,3.2,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,ADNCE,3.2,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,AoE,3.8,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,AoE,3.8,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,AoE,3.8,3,4,5,0,3,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,AoE,3.8,3,4,5,0,4,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,AoE,3.8,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,AoE,3.8,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,BORO,1.0,1,1,5,0,1,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,BORO,1.0,1,1,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,BORO,1.0,1,1,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,BORO,1.0,1,1,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,BORO,1.0,1,1,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@5,BORO,1.0,1,1,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,Triplet,5.0,5,5,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,Triplet,5.0,5,5,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,Triplet,5.0,5,5,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,Triplet,5.0,5,5,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,Triplet,5.0,5,5,5,0,5,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,Triplet,5.0,5,5,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,ADNCE,3.2,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,ADNCE,3.2,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,ADNCE,3.2,3,4,5,0,3,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,ADNCE,3.2,3,4,5,0,4,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,ADNCE,3.2,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,ADNCE,3.2,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,AoE,3.8,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,AoE,3.8,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,AoE,3.8,3,4,5,0,3,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,AoE,3.8,3,4,5,0,4,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,AoE,3.8,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,AoE,3.8,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,BORO,1.0,1,1,5,0,1,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,BORO,1.0,1,1,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,BORO,1.0,1,1,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,BORO,1.0,1,1,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,BORO,1.0,1,1,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@10,BORO,1.0,1,1,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,2,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,InfoNCE,2.0,2,2,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,Triplet,5.0,5,5,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,Triplet,5.0,5,5,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,Triplet,5.0,5,5,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,Triplet,5.0,5,5,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,Triplet,5.0,5,5,5,0,5,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,Triplet,5.0,5,5,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,ADNCE,3.2,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,ADNCE,3.2,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,ADNCE,3.2,3,4,5,0,3,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,ADNCE,3.2,3,4,5,0,4,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,ADNCE,3.2,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,ADNCE,3.2,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,AoE,3.8,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,AoE,3.8,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,AoE,3.8,3,4,5,0,3,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,AoE,3.8,3,4,5,0,4,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,AoE,3.8,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,AoE,3.8,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,BORO,1.0,1,1,5,0,1,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,BORO,1.0,1,1,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,BORO,1.0,1,1,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,BORO,1.0,1,1,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,BORO,1.0,1,1,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,NDCG@20,BORO,1.0,1,1,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,Triplet,5.0,5,5,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,Triplet,5.0,5,5,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,Triplet,5.0,5,5,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,Triplet,5.0,5,5,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,Triplet,5.0,5,5,5,0,5,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,Triplet,5.0,5,5,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,ADNCE,3.2,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,ADNCE,3.2,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,ADNCE,3.2,3,4,5,0,3,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,ADNCE,3.2,3,4,5,0,4,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,ADNCE,3.2,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,ADNCE,3.2,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,AoE,3.8,3,4,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,AoE,3.8,3,4,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,AoE,3.8,3,4,5,0,3,1,20.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,AoE,3.8,3,4,5,0,4,4,80.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,AoE,3.8,3,4,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,AoE,3.8,3,4,5,0,6,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,BORO,1.0,1,1,5,0,1,5,100.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,BORO,1.0,1,1,5,0,2,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,BORO,1.0,1,1,5,0,3,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,BORO,1.0,1,1,5,0,4,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,BORO,1.0,1,1,5,0,5,0,0.0
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,MRR@10,BORO,1.0,1,1,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,InfoNCE,2.2,2,3,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,InfoNCE,2.2,2,3,5,0,2,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,InfoNCE,2.2,2,3,5,0,3,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,InfoNCE,2.2,2,3,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,InfoNCE,2.2,2,3,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,InfoNCE,2.2,2,3,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,Triplet,3.0,2,4,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,Triplet,3.0,2,4,5,0,2,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,Triplet,3.0,2,4,5,0,3,3,60.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,Triplet,3.0,2,4,5,0,4,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,Triplet,3.0,2,4,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,Triplet,3.0,2,4,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,ADNCE,4.2,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,ADNCE,4.2,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,ADNCE,4.2,3,5,5,0,3,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,ADNCE,4.2,3,5,5,0,4,2,40.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,ADNCE,4.2,3,5,5,0,5,2,40.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,ADNCE,4.2,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,AoE,4.6,4,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,AoE,4.6,4,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,AoE,4.6,4,5,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,AoE,4.6,4,5,5,0,4,2,40.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,AoE,4.6,4,5,5,0,5,3,60.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,AoE,4.6,4,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,BORO,1.0,1,1,5,0,1,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,BORO,1.0,1,1,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,BORO,1.0,1,1,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,BORO,1.0,1,1,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,BORO,1.0,1,1,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,R@10,BORO,1.0,1,1,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,InfoNCE,2.0,2,2,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,InfoNCE,2.0,2,2,5,0,2,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,InfoNCE,2.0,2,2,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,InfoNCE,2.0,2,2,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,InfoNCE,2.0,2,2,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,InfoNCE,2.0,2,2,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,Triplet,3.2,3,4,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,Triplet,3.2,3,4,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,Triplet,3.2,3,4,5,0,3,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,Triplet,3.2,3,4,5,0,4,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,Triplet,3.2,3,4,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,Triplet,3.2,3,4,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,ADNCE,4.4,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,ADNCE,4.4,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,ADNCE,4.4,3,5,5,0,3,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,ADNCE,4.4,3,5,5,0,4,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,ADNCE,4.4,3,5,5,0,5,3,60.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,ADNCE,4.4,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,AoE,4.4,4,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,AoE,4.4,4,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,AoE,4.4,4,5,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,AoE,4.4,4,5,5,0,4,3,60.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,AoE,4.4,4,5,5,0,5,2,40.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,AoE,4.4,4,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,BORO,1.0,1,1,5,0,1,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,BORO,1.0,1,1,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,BORO,1.0,1,1,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,BORO,1.0,1,1,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,BORO,1.0,1,1,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@5,BORO,1.0,1,1,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,Triplet,3.4,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,Triplet,3.4,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,Triplet,3.4,3,5,5,0,3,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,Triplet,3.4,3,5,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,Triplet,3.4,3,5,5,0,5,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,Triplet,3.4,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,ADNCE,4.2,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,ADNCE,4.2,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,ADNCE,4.2,3,5,5,0,3,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,ADNCE,4.2,3,5,5,0,4,2,40.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,ADNCE,4.2,3,5,5,0,5,2,40.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,ADNCE,4.2,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,AoE,4.4,4,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,AoE,4.4,4,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,AoE,4.4,4,5,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,AoE,4.4,4,5,5,0,4,3,60.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,AoE,4.4,4,5,5,0,5,2,40.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,AoE,4.4,4,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,BORO,1.0,1,1,5,0,1,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,BORO,1.0,1,1,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,BORO,1.0,1,1,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,BORO,1.0,1,1,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,BORO,1.0,1,1,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@10,BORO,1.0,1,1,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,InfoNCE,1.8,1,2,5,0,1,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,InfoNCE,1.8,1,2,5,0,2,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,InfoNCE,1.8,1,2,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,InfoNCE,1.8,1,2,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,InfoNCE,1.8,1,2,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,InfoNCE,1.8,1,2,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,Triplet,3.4,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,Triplet,3.4,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,Triplet,3.4,3,5,5,0,3,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,Triplet,3.4,3,5,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,Triplet,3.4,3,5,5,0,5,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,Triplet,3.4,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,ADNCE,4.4,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,ADNCE,4.4,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,ADNCE,4.4,3,5,5,0,3,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,ADNCE,4.4,3,5,5,0,4,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,ADNCE,4.4,3,5,5,0,5,3,60.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,ADNCE,4.4,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,AoE,4.2,4,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,AoE,4.2,4,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,AoE,4.2,4,5,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,AoE,4.2,4,5,5,0,4,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,AoE,4.2,4,5,5,0,5,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,AoE,4.2,4,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,BORO,1.2,1,2,5,0,1,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,BORO,1.2,1,2,5,0,2,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,BORO,1.2,1,2,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,BORO,1.2,1,2,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,BORO,1.2,1,2,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,NDCG@20,BORO,1.2,1,2,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,Triplet,3.4,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,Triplet,3.4,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,Triplet,3.4,3,5,5,0,3,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,Triplet,3.4,3,5,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,Triplet,3.4,3,5,5,0,5,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,Triplet,3.4,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,ADNCE,4.4,3,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,ADNCE,4.4,3,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,ADNCE,4.4,3,5,5,0,3,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,ADNCE,4.4,3,5,5,0,4,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,ADNCE,4.4,3,5,5,0,5,3,60.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,ADNCE,4.4,3,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,AoE,4.2,4,5,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,AoE,4.2,4,5,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,AoE,4.2,4,5,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,AoE,4.2,4,5,5,0,4,4,80.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,AoE,4.2,4,5,5,0,5,1,20.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,AoE,4.2,4,5,5,0,6,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,BORO,1.0,1,1,5,0,1,5,100.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,BORO,1.0,1,1,5,0,2,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,BORO,1.0,1,1,5,0,3,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,BORO,1.0,1,1,5,0,4,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,BORO,1.0,1,1,5,0,5,0,0.0
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,MRR@10,BORO,1.0,1,1,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,InfoNCE,1.4,1,2,5,0,1,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,InfoNCE,1.4,1,2,5,0,2,2,40.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,InfoNCE,1.4,1,2,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,InfoNCE,1.4,1,2,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,InfoNCE,1.4,1,2,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,InfoNCE,1.4,1,2,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,Triplet,3.6,3,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,Triplet,3.6,3,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,Triplet,3.6,3,5,5,0,3,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,Triplet,3.6,3,5,5,0,4,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,Triplet,3.6,3,5,5,0,5,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,Triplet,3.6,3,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,ADNCE,4.0,3,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,ADNCE,4.0,3,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,ADNCE,4.0,3,5,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,ADNCE,4.0,3,5,5,0,4,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,ADNCE,4.0,3,5,5,0,5,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,ADNCE,4.0,3,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,AoE,4.4,3,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,AoE,4.4,3,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,AoE,4.4,3,5,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,AoE,4.4,3,5,5,0,4,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,AoE,4.4,3,5,5,0,5,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,AoE,4.4,3,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,BORO,1.6,1,2,5,0,1,2,40.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,BORO,1.6,1,2,5,0,2,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,BORO,1.6,1,2,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,BORO,1.6,1,2,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,BORO,1.6,1,2,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,R@10,BORO,1.6,1,2,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,InfoNCE,2.2,2,3,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,InfoNCE,2.2,2,3,5,0,2,4,80.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,InfoNCE,2.2,2,3,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,InfoNCE,2.2,2,3,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,InfoNCE,2.2,2,3,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,InfoNCE,2.2,2,3,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,Triplet,3.0,2,4,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,Triplet,3.0,2,4,5,0,2,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,Triplet,3.0,2,4,5,0,3,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,Triplet,3.0,2,4,5,0,4,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,Triplet,3.0,2,4,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,Triplet,3.0,2,4,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,ADNCE,3.8,3,4,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,ADNCE,3.8,3,4,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,ADNCE,3.8,3,4,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,ADNCE,3.8,3,4,5,0,4,4,80.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,ADNCE,3.8,3,4,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,ADNCE,3.8,3,4,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,AoE,5.0,5,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,AoE,5.0,5,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,AoE,5.0,5,5,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,AoE,5.0,5,5,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,AoE,5.0,5,5,5,0,5,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,AoE,5.0,5,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,BORO,1.0,1,1,5,0,1,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,BORO,1.0,1,1,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,BORO,1.0,1,1,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,BORO,1.0,1,1,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,BORO,1.0,1,1,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@5,BORO,1.0,1,1,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,InfoNCE,2.0,1,3,5,0,1,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,InfoNCE,2.0,1,3,5,0,2,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,InfoNCE,2.0,1,3,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,InfoNCE,2.0,1,3,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,InfoNCE,2.0,1,3,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,InfoNCE,2.0,1,3,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,Triplet,3.2,2,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,Triplet,3.2,2,5,5,0,2,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,Triplet,3.2,2,5,5,0,3,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,Triplet,3.2,2,5,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,Triplet,3.2,2,5,5,0,5,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,Triplet,3.2,2,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,ADNCE,4.2,3,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,ADNCE,4.2,3,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,ADNCE,4.2,3,5,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,ADNCE,4.2,3,5,5,0,4,2,40.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,ADNCE,4.2,3,5,5,0,5,2,40.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,ADNCE,4.2,3,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,AoE,4.4,4,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,AoE,4.4,4,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,AoE,4.4,4,5,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,AoE,4.4,4,5,5,0,4,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,AoE,4.4,4,5,5,0,5,2,40.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,AoE,4.4,4,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,BORO,1.2,1,2,5,0,1,4,80.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,BORO,1.2,1,2,5,0,2,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,BORO,1.2,1,2,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,BORO,1.2,1,2,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,BORO,1.2,1,2,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@10,BORO,1.2,1,2,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,InfoNCE,2.0,2,2,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,InfoNCE,2.0,2,2,5,0,2,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,InfoNCE,2.0,2,2,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,InfoNCE,2.0,2,2,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,InfoNCE,2.0,2,2,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,InfoNCE,2.0,2,2,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,Triplet,3.0,3,3,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,Triplet,3.0,3,3,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,Triplet,3.0,3,3,5,0,3,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,Triplet,3.0,3,3,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,Triplet,3.0,3,3,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,Triplet,3.0,3,3,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,ADNCE,4.4,4,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,ADNCE,4.4,4,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,ADNCE,4.4,4,5,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,ADNCE,4.4,4,5,5,0,4,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,ADNCE,4.4,4,5,5,0,5,2,40.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,ADNCE,4.4,4,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,AoE,4.6,4,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,AoE,4.6,4,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,AoE,4.6,4,5,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,AoE,4.6,4,5,5,0,4,2,40.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,AoE,4.6,4,5,5,0,5,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,AoE,4.6,4,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,BORO,1.0,1,1,5,0,1,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,BORO,1.0,1,1,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,BORO,1.0,1,1,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,BORO,1.0,1,1,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,BORO,1.0,1,1,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,NDCG@20,BORO,1.0,1,1,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,InfoNCE,2.0,1,3,5,0,1,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,InfoNCE,2.0,1,3,5,0,2,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,InfoNCE,2.0,1,3,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,InfoNCE,2.0,1,3,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,InfoNCE,2.0,1,3,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,InfoNCE,2.0,1,3,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,Triplet,2.4,1,3,5,0,1,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,Triplet,2.4,1,3,5,0,2,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,Triplet,2.4,1,3,5,0,3,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,Triplet,2.4,1,3,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,Triplet,2.4,1,3,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,Triplet,2.4,1,3,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,ADNCE,4.2,4,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,ADNCE,4.2,4,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,ADNCE,4.2,4,5,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,ADNCE,4.2,4,5,5,0,4,4,80.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,ADNCE,4.2,4,5,5,0,5,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,ADNCE,4.2,4,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,AoE,4.8,4,5,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,AoE,4.8,4,5,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,AoE,4.8,4,5,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,AoE,4.8,4,5,5,0,4,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,AoE,4.8,4,5,5,0,5,4,80.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,AoE,4.8,4,5,5,0,6,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,BORO,1.6,1,3,5,0,1,3,60.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,BORO,1.6,1,3,5,0,2,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,BORO,1.6,1,3,5,0,3,1,20.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,BORO,1.6,1,3,5,0,4,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,BORO,1.6,1,3,5,0,5,0,0.0
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,MRR@10,BORO,1.6,1,3,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,InfoNCE,1.8,1,2,5,0,1,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,InfoNCE,1.8,1,2,5,0,2,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,InfoNCE,1.8,1,2,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,InfoNCE,1.8,1,2,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,InfoNCE,1.8,1,2,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,InfoNCE,1.8,1,2,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,Triplet,3.2,3,4,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,Triplet,3.2,3,4,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,Triplet,3.2,3,4,5,0,3,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,Triplet,3.2,3,4,5,0,4,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,Triplet,3.2,3,4,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,Triplet,3.2,3,4,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,ADNCE,4.6,3,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,ADNCE,4.6,3,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,ADNCE,4.6,3,5,5,0,3,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,ADNCE,4.6,3,5,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,ADNCE,4.6,3,5,5,0,5,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,ADNCE,4.6,3,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,AoE,4.2,4,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,AoE,4.2,4,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,AoE,4.2,4,5,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,AoE,4.2,4,5,5,0,4,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,AoE,4.2,4,5,5,0,5,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,AoE,4.2,4,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,DMCL,6.0,6,6,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,DMCL,6.0,6,6,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,DMCL,6.0,6,6,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,DMCL,6.0,6,6,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,DMCL,6.0,6,6,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,DMCL,6.0,6,6,5,0,6,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,BORO,1.2,1,2,5,0,1,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,BORO,1.2,1,2,5,0,2,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,BORO,1.2,1,2,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,BORO,1.2,1,2,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,BORO,1.2,1,2,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,R@10,BORO,1.2,1,2,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,InfoNCE,2.2,2,3,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,InfoNCE,2.2,2,3,5,0,2,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,InfoNCE,2.2,2,3,5,0,3,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,InfoNCE,2.2,2,3,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,InfoNCE,2.2,2,3,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,InfoNCE,2.2,2,3,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,Triplet,3.0,2,4,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,Triplet,3.0,2,4,5,0,2,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,Triplet,3.0,2,4,5,0,3,3,60.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,Triplet,3.0,2,4,5,0,4,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,Triplet,3.0,2,4,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,Triplet,3.0,2,4,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,ADNCE,4.6,4,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,ADNCE,4.6,4,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,ADNCE,4.6,4,5,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,ADNCE,4.6,4,5,5,0,4,2,40.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,ADNCE,4.6,4,5,5,0,5,3,60.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,ADNCE,4.6,4,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,AoE,4.2,3,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,AoE,4.2,3,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,AoE,4.2,3,5,5,0,3,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,AoE,4.2,3,5,5,0,4,2,40.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,AoE,4.2,3,5,5,0,5,2,40.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,AoE,4.2,3,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,DMCL,6.0,6,6,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,DMCL,6.0,6,6,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,DMCL,6.0,6,6,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,DMCL,6.0,6,6,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,DMCL,6.0,6,6,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,DMCL,6.0,6,6,5,0,6,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,BORO,1.0,1,1,5,0,1,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,BORO,1.0,1,1,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,BORO,1.0,1,1,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,BORO,1.0,1,1,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,BORO,1.0,1,1,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@5,BORO,1.0,1,1,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,InfoNCE,2.0,2,2,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,InfoNCE,2.0,2,2,5,0,2,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,InfoNCE,2.0,2,2,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,InfoNCE,2.0,2,2,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,InfoNCE,2.0,2,2,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,InfoNCE,2.0,2,2,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,Triplet,3.0,3,3,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,Triplet,3.0,3,3,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,Triplet,3.0,3,3,5,0,3,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,Triplet,3.0,3,3,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,Triplet,3.0,3,3,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,Triplet,3.0,3,3,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,ADNCE,5.0,5,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,ADNCE,5.0,5,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,ADNCE,5.0,5,5,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,ADNCE,5.0,5,5,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,ADNCE,5.0,5,5,5,0,5,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,ADNCE,5.0,5,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,AoE,4.0,4,4,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,AoE,4.0,4,4,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,AoE,4.0,4,4,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,AoE,4.0,4,4,5,0,4,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,AoE,4.0,4,4,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,AoE,4.0,4,4,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,DMCL,6.0,6,6,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,DMCL,6.0,6,6,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,DMCL,6.0,6,6,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,DMCL,6.0,6,6,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,DMCL,6.0,6,6,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,DMCL,6.0,6,6,5,0,6,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,BORO,1.0,1,1,5,0,1,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,BORO,1.0,1,1,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,BORO,1.0,1,1,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,BORO,1.0,1,1,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,BORO,1.0,1,1,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@10,BORO,1.0,1,1,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,InfoNCE,2.0,2,2,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,InfoNCE,2.0,2,2,5,0,2,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,InfoNCE,2.0,2,2,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,InfoNCE,2.0,2,2,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,InfoNCE,2.0,2,2,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,InfoNCE,2.0,2,2,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,Triplet,3.0,3,3,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,Triplet,3.0,3,3,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,Triplet,3.0,3,3,5,0,3,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,Triplet,3.0,3,3,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,Triplet,3.0,3,3,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,Triplet,3.0,3,3,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,ADNCE,4.8,4,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,ADNCE,4.8,4,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,ADNCE,4.8,4,5,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,ADNCE,4.8,4,5,5,0,4,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,ADNCE,4.8,4,5,5,0,5,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,ADNCE,4.8,4,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,AoE,4.2,4,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,AoE,4.2,4,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,AoE,4.2,4,5,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,AoE,4.2,4,5,5,0,4,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,AoE,4.2,4,5,5,0,5,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,AoE,4.2,4,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,DMCL,6.0,6,6,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,DMCL,6.0,6,6,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,DMCL,6.0,6,6,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,DMCL,6.0,6,6,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,DMCL,6.0,6,6,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,DMCL,6.0,6,6,5,0,6,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,BORO,1.0,1,1,5,0,1,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,BORO,1.0,1,1,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,BORO,1.0,1,1,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,BORO,1.0,1,1,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,BORO,1.0,1,1,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,NDCG@20,BORO,1.0,1,1,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,InfoNCE,2.2,2,3,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,InfoNCE,2.2,2,3,5,0,2,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,InfoNCE,2.2,2,3,5,0,3,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,InfoNCE,2.2,2,3,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,InfoNCE,2.2,2,3,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,InfoNCE,2.2,2,3,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,Triplet,2.8,2,3,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,Triplet,2.8,2,3,5,0,2,1,20.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,Triplet,2.8,2,3,5,0,3,4,80.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,Triplet,2.8,2,3,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,Triplet,2.8,2,3,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,Triplet,2.8,2,3,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,ADNCE,5.0,5,5,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,ADNCE,5.0,5,5,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,ADNCE,5.0,5,5,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,ADNCE,5.0,5,5,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,ADNCE,5.0,5,5,5,0,5,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,ADNCE,5.0,5,5,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,AoE,4.0,4,4,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,AoE,4.0,4,4,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,AoE,4.0,4,4,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,AoE,4.0,4,4,5,0,4,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,AoE,4.0,4,4,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,AoE,4.0,4,4,5,0,6,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,DMCL,6.0,6,6,5,0,1,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,DMCL,6.0,6,6,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,DMCL,6.0,6,6,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,DMCL,6.0,6,6,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,DMCL,6.0,6,6,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,DMCL,6.0,6,6,5,0,6,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,BORO,1.0,1,1,5,0,1,5,100.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,BORO,1.0,1,1,5,0,2,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,BORO,1.0,1,1,5,0,3,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,BORO,1.0,1,1,5,0,4,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,BORO,1.0,1,1,5,0,5,0,0.0
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,MRR@10,BORO,1.0,1,1,5,0,6,0,0.0

@@ -1,0 +1,60 @@
+{
+  "batch_size": 256,
+  "data_sha256": "d399a65217d7cc63f2c0adf3bad8ea70211b104f8bfb7bd6860c6817f0e84278",
+  "dataset_path": "data/processed/controlled/seed_7507.npz",
+  "eval_every": 5,
+  "evaluation_targets": [
+    0.95
+  ],
+  "final_test_metrics": {
+    "accepted_at_p95": 501,
+    "average_precision": 0.7743166619605477,
+    "frontier_percentile_p95": 0.01666722224074136,
+    "precision_at_p95": 0.9500998003992016,
+    "r_at_p95": 0.08060965283657917
+  },
+  "final_validation_metrics": {
+    "accepted_at_p95": 264,
+    "average_precision": 0.7715773109772869,
+    "frontier_percentile_p95": 0.013150657532876643,
+    "precision_at_p95": 0.9507575757575758,
+    "r_at_p95": 0.06136919315403423
+  },
+  "fixed_horizon_primary": true,
+  "initial_mechanism": null,
+  "initial_test_metrics": {
+    "accepted_at_p95": 5,
+    "average_precision": 0.27628243803071695,
+    "frontier_percentile_p95": 0.00013333777792593087,
+    "precision_at_p95": 1.0,
+    "r_at_p95": 0.000846740050804403
+  },
+  "initial_validation_metrics": {
+    "accepted_at_p95": 0,
+    "average_precision": 0.2885719293244371,
+    "frontier_percentile_p95": 0.0,
+    "precision_at_p95": 0.0,
+    "r_at_p95": 0.0
+  },
+  "learning_rate": 0.01,
+  "method": "bce",
+  "optimizer": "torch.optim.AdamW",
+  "provenance": {
+    "official_call": "torch.nn.BCEWithLogitsLoss(reduction='mean')",
+    "official_library": "PyTorch",
+    "torch_version": "2.8.0"
+  },
+  "run_dir": "results/controlled/bce/seed_7507",
+  "seed": 7507,
+  "steps": 25,
+  "target_precision": null,
+  "unit_of_step": "one complete training-data pass",
+  "validation_threshold_transfer": {
+    "test_transfer_accepted_p95": 428,
+    "test_transfer_accepted_positives_p95": 408,
+    "test_transfer_precision_p95": 0.9532710280373832,
+    "test_transfer_recall_p95": 0.06909398814563929,
+    "validation_threshold_p95": 3.4661574363708496
+  },
+  "weight_decay": 0.0001
+}

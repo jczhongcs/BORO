@@ -1,0 +1,76 @@
+{
+  "protocol": "official_tfco_fpor_adapter_on_dmo_features",
+  "method": "TFCO-FPOR",
+  "seed": 20260417,
+  "best_epoch": 190,
+  "selection_score": 0.01259754960696033,
+  "config": {
+    "official_library": "tensorflow_constrained_optimization",
+    "tensorflow_version": "2.21.0",
+    "objective": "maximize recall via minimizing -tfco.recall(context)",
+    "constraint": "tfco.precision(context) >= 0.95",
+    "iterations": 600,
+    "eval_every": 10,
+    "learning_rate": 0.01,
+    "model": "single linear scoring head",
+    "features": "fixed ADE 512-dimensional TF-IDF/SVD features from data/processed/ade/features"
+  },
+  "tfco_best": {
+    "iteration": 190,
+    "objective": -0.9993569254875183,
+    "constraints": [
+      0.06750452518463135,
+      0.13732105493545532,
+      0.5928258299827576
+    ]
+  },
+  "data": {
+    "train_size": 13530,
+    "val_size": 2388,
+    "test_size": 4977,
+    "train_positive": 2957,
+    "val_positive": 522,
+    "test_positive": 792
+  },
+  "val_metrics": {
+    "auroc": 0.8524216366272027,
+    "auprc": 0.5998001533551518,
+    "r_at_p90": 0.005747126436781609,
+    "threshold_p90": 2.176486015319824,
+    "r_at_p95": 0.005747126436781609,
+    "threshold_p95": 2.176486015319824,
+    "r_at_p98": 0.005747126436781609,
+    "threshold_p98": 2.176486015319824,
+    "r_at_fpr0p01": 0.1360153256704981,
+    "threshold_fpr0p01": 1.7143211364746094,
+    "r_at_fpr0p05": 0.35823754789272033,
+    "threshold_fpr0p05": 1.4782582521438599,
+    "r_at_fpr0p1": 0.5229885057471264,
+    "threshold_fpr0p1": 1.3588085174560547,
+    "best_f1": 0.6039016115351993,
+    "best_f1_precision": 0.5418569254185692,
+    "best_f1_recall": 0.6819923371647509,
+    "best_f1_threshold": 1.2552474737167358
+  },
+  "test_metrics": {
+    "auroc": 0.8442064009268311,
+    "auprc": 0.4920695032484013,
+    "r_at_p90": 0.008838383838383838,
+    "threshold_p90": 2.013644218444824,
+    "r_at_p95": 0.008838383838383838,
+    "threshold_p95": 2.013644218444824,
+    "r_at_p98": 0.008838383838383838,
+    "threshold_p98": 2.013644218444824,
+    "r_at_fpr0p01": 0.08838383838383838,
+    "threshold_fpr0p01": 1.7218928337097168,
+    "r_at_fpr0p05": 0.3547979797979798,
+    "threshold_fpr0p05": 1.4654574394226074,
+    "r_at_fpr0p1": 0.5214646464646465,
+    "threshold_fpr0p1": 1.342307209968567,
+    "best_f1": 0.5348133198789102,
+    "best_f1_precision": 0.44537815126050423,
+    "best_f1_recall": 0.6691919191919192,
+    "best_f1_threshold": 1.253321647644043
+  },
+  "run_dir": "results/ade/tfco/seed_20260417"
+}

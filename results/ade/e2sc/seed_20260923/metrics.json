@@ -1,0 +1,95 @@
+{
+  "protocol": "ade_latest_2025_2026_official_code_adapters",
+  "method": "E2SC_US",
+  "seed": 20260923,
+  "best_epoch": 26,
+  "selection_score": 0.0805350522521682,
+  "method_info": {
+    "minority_label": 1,
+    "majority_label": 0,
+    "removed_count": 6765,
+    "selected_count": 6765,
+    "selected_class_counts": {
+      "0": 3808,
+      "1": 2957
+    },
+    "oof_micro_accuracy": 0.8583148558758315,
+    "selected_indices_sha256": "8efe5599e455a30358e82e9a95daa89f9ee940ad3a82bd6cb32c70ca5fd2e298",
+    "official_parameters": {
+      "alphaMode": "logistic_regression",
+      "cv_folds": 5,
+      "cv_random_state": 0,
+      "C": 1.0,
+      "removal_rule": "min(majority-minority, floor(total*0.5))"
+    },
+    "compatibility_changes": [
+      "solver='warn' (sklearn 0.21) mapped to its effective binary default solver='liblinear'",
+      "Binary classification uses the installed scikit-learn multi-class default",
+      "E2SC_US alpha_aux is represented as a NumPy array for addition of uniform residual probability mass"
+    ],
+    "selection_seconds": 3.7981577087193727
+  },
+  "config": {
+    "downstream_loss": "torch.nn.BCEWithLogitsLoss",
+    "model": "single linear score head",
+    "features": "fixed ADE 512-dimensional TF-IDF/SVD features",
+    "checkpoint_selection": "validation R@P95 + 0.01*AUPRC + 0.001*AUROC",
+    "epochs": 60,
+    "patience": 12,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "train_seconds": 3.8088598754256964
+  },
+  "data": {
+    "train_size_original": 13530,
+    "train_size_selected": 6765,
+    "train_positive_original": 2957,
+    "train_positive_selected": 2957,
+    "val_size": 2388,
+    "val_positive": 522,
+    "test_size": 4977,
+    "test_positive": 792
+  },
+  "val_metrics": {
+    "auroc": 0.879150189106947,
+    "auprc": 0.6858967197160871,
+    "r_at_p90": 0.13409961685823754,
+    "threshold_p90": 0.20813974738121033,
+    "r_at_p95": 0.07279693486590039,
+    "threshold_p95": 0.30712243914604187,
+    "r_at_p98": 0.038314176245210725,
+    "threshold_p98": 0.3721871078014374,
+    "r_at_fpr0p01": 0.19348659003831417,
+    "threshold_fpr0p01": 0.1387995481491089,
+    "r_at_fpr0p05": 0.46934865900383144,
+    "threshold_fpr0p05": -0.05181674659252167,
+    "r_at_fpr0p1": 0.632183908045977,
+    "threshold_fpr0p1": -0.14787694811820984,
+    "best_f1": 0.6496350364963503,
+    "best_f1_precision": 0.6202090592334495,
+    "best_f1_recall": 0.6819923371647509,
+    "best_f1_threshold": -0.17731042206287384
+  },
+  "test_metrics": {
+    "auroc": 0.8731805812002944,
+    "auprc": 0.6193954375731852,
+    "r_at_p90": 0.13383838383838384,
+    "threshold_p90": 0.21454527974128723,
+    "r_at_p95": 0.08585858585858586,
+    "threshold_p95": 0.29901763796806335,
+    "r_at_p98": 0.012626262626262626,
+    "threshold_p98": 0.5601232051849365,
+    "r_at_fpr0p01": 0.21843434343434343,
+    "threshold_fpr0p01": 0.10965472459793091,
+    "r_at_fpr0p05": 0.476010101010101,
+    "threshold_fpr0p05": -0.05876174569129944,
+    "r_at_fpr0p1": 0.6262626262626263,
+    "threshold_fpr0p1": -0.14503821730613708,
+    "best_f1": 0.5850645704660303,
+    "best_f1_precision": 0.5267947421638018,
+    "best_f1_recall": 0.6578282828282829,
+    "best_f1_threshold": -0.15873059630393982
+  },
+  "run_dir": "results/ade/e2sc/seed_20260923"
+}

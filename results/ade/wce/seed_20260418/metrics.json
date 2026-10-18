@@ -1,0 +1,70 @@
+{
+  "protocol": "official_code_adapter_on_dmo_features",
+  "method": "WCE",
+  "seed": 20260418,
+  "best_epoch": 6,
+  "selection_score": 0.053782137799431,
+  "loss_info": {
+    "official_call": "torch.nn.BCEWithLogitsLoss(pos_weight=negative/positive)",
+    "pos_weight": 3.575583361515049
+  },
+  "config": {
+    "batch_size": 256,
+    "epochs": 60,
+    "patience": 12,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "selection_precision": 0.95,
+    "model": "single linear scoring head",
+    "features": "fixed ADE 512-dimensional TF-IDF/SVD features from data/processed/ade/features"
+  },
+  "data": {
+    "train_size": 13530,
+    "val_size": 2388,
+    "test_size": 4977,
+    "train_positive": 2957,
+    "val_positive": 522,
+    "test_positive": 792
+  },
+  "val_metrics": {
+    "auroc": 0.8791378694361287,
+    "auprc": 0.6925988435742001,
+    "r_at_p90": 0.04980842911877394,
+    "threshold_p90": 0.2925798296928406,
+    "r_at_p95": 0.04597701149425287,
+    "threshold_p95": 0.2941936254501343,
+    "r_at_p98": 0.01532567049808429,
+    "threshold_p98": 0.33686548471450806,
+    "r_at_fpr0p01": 0.18199233716475097,
+    "threshold_fpr0p01": 0.20668555796146393,
+    "r_at_fpr0p05": 0.5095785440613027,
+    "threshold_fpr0p05": 0.10466945171356201,
+    "r_at_fpr0p1": 0.6685823754789272,
+    "threshold_fpr0p1": 0.06211020424962044,
+    "best_f1": 0.6690777576853526,
+    "best_f1_precision": 0.6335616438356164,
+    "best_f1_recall": 0.7088122605363985,
+    "best_f1_threshold": 0.050421178340911865
+  },
+  "test_metrics": {
+    "auroc": 0.8694046196734369,
+    "auprc": 0.6077163919146225,
+    "r_at_p90": 0.10732323232323232,
+    "threshold_p90": 0.2384990006685257,
+    "r_at_p95": 0.005050505050505051,
+    "threshold_p95": 0.39888298511505127,
+    "r_at_p98": 0.005050505050505051,
+    "threshold_p98": 0.39888298511505127,
+    "r_at_fpr0p01": 0.2032828282828283,
+    "threshold_fpr0p01": 0.18474821746349335,
+    "r_at_fpr0p05": 0.48358585858585856,
+    "threshold_fpr0p05": 0.1036340519785881,
+    "r_at_fpr0p1": 0.6237373737373737,
+    "threshold_fpr0p1": 0.06292162090539932,
+    "best_f1": 0.5840813883901855,
+    "best_f1_precision": 0.5551763367463026,
+    "best_f1_recall": 0.6161616161616161,
+    "best_f1_threshold": 0.06653724610805511
+  },
+  "run_dir": "results/ade/wce/seed_20260418"
+}

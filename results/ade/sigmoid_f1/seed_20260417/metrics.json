@@ -1,0 +1,36 @@
+{
+  "stage": "selected_configuration_test_evaluation",
+  "method": "sigmoid_f1",
+  "config_id": "s_20_e_0",
+  "parameters": {
+    "S": -20.0,
+    "E": 0.0
+  },
+  "seed": 20260417,
+  "best_epoch": 11,
+  "test_metrics": {
+    "auroc": 0.8532220351664797,
+    "auprc": 0.565114713252125,
+    "r_at_p90": 0.03282828282828283,
+    "threshold_p90": -0.23282015323638916,
+    "r_at_p95": 0.03156565656565657,
+    "threshold_p95": -0.22692549228668213,
+    "r_at_p98": 0.011363636363636364,
+    "threshold_p98": -0.10961675643920898,
+    "r_at_fpr0p01": 0.18434343434343434,
+    "threshold_fpr0p01": -0.5750601291656494,
+    "r_at_fpr0p05": 0.4116161616161616,
+    "threshold_fpr0p05": -0.7888699769973755,
+    "r_at_fpr0p1": 0.5732323232323232,
+    "threshold_fpr0p1": -0.9422089457511902,
+    "best_f1": 0.5533333333333333,
+    "best_f1_precision": 0.49404761904761907,
+    "best_f1_recall": 0.6287878787878788,
+    "best_f1_threshold": -0.9890234470367432
+  },
+  "data": {
+    "test_size": 4977,
+    "test_positive": 792
+  },
+  "run_dir": "results/ade/sigmoid_f1/seed_20260417"
+}

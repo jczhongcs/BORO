@@ -1,0 +1,10 @@
+setting_index,setting,group,dataset,sampler,reference_method,boro_ndcg10_delta
+0,in_domain__random__scifact,In-domain / random,SciFact,random,InfoNCE,0.010771926295091893
+1,in_domain__random__fiqa,In-domain / random,FiQA,random,InfoNCE,0.01136989494567181
+2,in_domain__random__nfcorpus,In-domain / random,NFCorpus,random,InfoNCE,0.015766283961113136
+3,in_domain__bm25__scifact,In-domain / BM25,SciFact,bm25,AoE,0.005281482404091098
+4,in_domain__bm25__fiqa,In-domain / BM25,FiQA,bm25,InfoNCE,0.009917210697878254
+5,in_domain__bm25__nfcorpus,In-domain / BM25,NFCorpus,bm25,InfoNCE,0.013299282889865205
+6,zero_shot__random__arguana,Zero-shot,ArguAna,random,InfoNCE,0.008255495934915069
+7,zero_shot__random__dbpedia,Zero-shot,DBPedia,random,InfoNCE,0.006004159188403535
+8,zero_shot__random__scidocs,Zero-shot,SciDocs,random,InfoNCE,0.0039744173757595815

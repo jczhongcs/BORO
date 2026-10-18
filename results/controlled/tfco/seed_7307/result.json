@@ -1,0 +1,89 @@
+{
+  "batch_size": "full training pool (official rate constraint)",
+  "data_sha256": "a45fa3a6f0b5437aceff0fc94d0a490e3cf91425d4b42c01399ab50b3dc8aec5",
+  "dataset_path": "data/processed/controlled/seed_7307.npz",
+  "eval_every": 20,
+  "evaluation_targets": [
+    0.95
+  ],
+  "final_test_metrics": {
+    "accepted_at_p95": 337,
+    "average_precision": 0.7437276532270453,
+    "frontier_percentile_p95": 0.011200373345778192,
+    "precision_at_p95": 0.9525222551928784,
+    "r_at_p95": 0.0534910848191968
+  },
+  "final_tfco": {
+    "constraints": [
+      -0.15168803930282593,
+      0.08730192482471466,
+      0.4409596621990204
+    ],
+    "objective": -0.9907495379447937,
+    "state_variable": [
+      -0.0022559924982488155,
+      -0.002380040008574724,
+      -0.003512524301186204,
+      -0.0024594792630523443,
+      -7.816449165344238,
+      -7.801300525665283,
+      -8.18335247039795,
+      -7.855666160583496,
+      -6.629537105560303,
+      -6.573055744171143,
+      -6.158901691436768,
+      -6.557533264160156,
+      -7.543361663818359,
+      -7.468969821929932,
+      -6.801182270050049,
+      -7.3393378257751465
+    ]
+  },
+  "final_validation_metrics": {
+    "accepted_at_p95": 108,
+    "average_precision": 0.7401139097571323,
+    "frontier_percentile_p95": 0.005350267513375669,
+    "precision_at_p95": 0.9537037037037037,
+    "r_at_p95": 0.025769326995246436
+  },
+  "fixed_horizon_primary": true,
+  "initial_test_metrics": {
+    "accepted_at_p95": 5,
+    "average_precision": 0.2624886379829682,
+    "frontier_percentile_p95": 0.00013333777792593087,
+    "precision_at_p95": 1.0,
+    "r_at_p95": 0.0008331944675887352
+  },
+  "initial_validation_metrics": {
+    "accepted_at_p95": 0,
+    "average_precision": 0.27114580018251455,
+    "frontier_percentile_p95": 0.0,
+    "precision_at_p95": 0.0,
+    "r_at_p95": 0.0
+  },
+  "learning_rate": 0.01,
+  "method": "tfco_fpor",
+  "optimizer": "tf.keras.optimizers.Adam",
+  "provenance": {
+    "constraint": "tfco.precision(context) >= 0.95",
+    "full_training_pool_per_update": true,
+    "loss_builder": "tfco.create_proxy_lagrangian_loss(problem)",
+    "objective": "-tfco.recall(context)",
+    "official_library": "google-research/tensorflow_constrained_optimization",
+    "official_pypi_package": "tensorflow-constrained-optimization==0.2",
+    "state_initialization": "official library default",
+    "tensorflow_version": "2.21.0"
+  },
+  "run_dir": "results/controlled/tfco/seed_7307",
+  "seed": 7307,
+  "steps": 220,
+  "target_precision": 0.95,
+  "unit_of_step": "one complete training-data pass",
+  "validation_threshold_transfer": {
+    "test_transfer_accepted_p95": 194,
+    "test_transfer_accepted_positives_p95": 186,
+    "test_transfer_precision_p95": 0.9587628865979382,
+    "test_transfer_recall_p95": 0.03099483419430095,
+    "validation_threshold_p95": 4.804755654897296
+  }
+}

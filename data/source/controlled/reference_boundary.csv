@@ -1,0 +1,2 @@
+precision_target_percent,reference_cutoff,nearest10_score_low,nearest10_score_high,nearest2_score_low,nearest2_score_high
+95.0,3.998790449023991,1.0378538152084724,6.941644266235308,3.031116857657074,4.966464040390908

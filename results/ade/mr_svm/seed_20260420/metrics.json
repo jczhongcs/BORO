@@ -1,0 +1,88 @@
+{
+  "protocol": "ade_latest_2025_2026_official_code_adapters",
+  "method": "MR-SVM",
+  "seed": 20260420,
+  "best_epoch": 0,
+  "selection_score": 0.06769801209967857,
+  "method_info": {
+    "official_operation": "fit linear SVC, normalize its normal vector, and move only the intercept so positive/negative margins have ratio tau",
+    "selected_tau": 2.0,
+    "tau_invariance_span": {
+      "val_selection_score": 0.0,
+      "val_r_at_p95": 0.0,
+      "val_auprc": 0.0,
+      "val_auroc": 0.0,
+      "test_r_at_p95": 0.0,
+      "test_auprc": 0.0,
+      "test_auroc": 0.0
+    },
+    "ranking_consequence": "Intercept rebalancing preserves ranking and therefore AUROC, AUPRC, and empirical R@P95",
+    "compatibility_changes": []
+  },
+  "config": {
+    "classifier": "sklearn.svm.SVC(kernel='linear')",
+    "C": 1.0,
+    "shrinking": true,
+    "tol": 1e-08,
+    "tau": 2.0,
+    "tau_audit": [
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "features": "fixed ADE 512-dimensional TF-IDF/SVD features",
+    "train_seconds": 18.520835917443037
+  },
+  "data": {
+    "train_size_original": 13530,
+    "train_size_selected": 13530,
+    "train_positive_original": 2957,
+    "train_positive_selected": 2957,
+    "val_size": 2388,
+    "val_positive": 522,
+    "test_size": 4977,
+    "test_positive": 792
+  },
+  "val_metrics": {
+    "auroc": 0.8995905762731353,
+    "auprc": 0.7411448343328806,
+    "r_at_p90": 0.21455938697318008,
+    "threshold_p90": 0.0667039561292868,
+    "r_at_p95": 0.05938697318007663,
+    "threshold_p95": 0.10979895494032117,
+    "r_at_p98": 0.017241379310344827,
+    "threshold_p98": 0.13481540535296305,
+    "r_at_fpr0p01": 0.2681992337164751,
+    "threshold_fpr0p01": 0.06075193191999405,
+    "r_at_fpr0p05": 0.5670498084291188,
+    "threshold_fpr0p05": 0.022257108365423703,
+    "r_at_fpr0p1": 0.7049808429118773,
+    "threshold_fpr0p1": 0.0016313494754877783,
+    "best_f1": 0.6876553438276719,
+    "best_f1_precision": 0.6058394160583942,
+    "best_f1_recall": 0.7950191570881227,
+    "best_f1_threshold": -0.010749193514498656
+  },
+  "test_metrics": {
+    "auroc": 0.8964205978542895,
+    "auprc": 0.6744994232083492,
+    "r_at_p90": 0.18813131313131312,
+    "threshold_p90": 0.06518435940205745,
+    "r_at_p95": 0.06565656565656566,
+    "threshold_p95": 0.0951058477000004,
+    "r_at_p98": 0.056818181818181816,
+    "threshold_p98": 0.1054336200597762,
+    "r_at_fpr0p01": 0.2765151515151515,
+    "threshold_fpr0p01": 0.052080509482784046,
+    "r_at_fpr0p05": 0.5618686868686869,
+    "threshold_fpr0p05": 0.018117956840458624,
+    "r_at_fpr0p1": 0.6957070707070707,
+    "threshold_fpr0p1": 0.00083920742585393,
+    "best_f1": 0.6322657176749703,
+    "best_f1_precision": 0.5961968680089486,
+    "best_f1_recall": 0.672979797979798,
+    "best_f1_threshold": 0.0043832910603139735
+  },
+  "run_dir": "results/ade/mr_svm/seed_20260420"
+}
