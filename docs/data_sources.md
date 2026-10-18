@@ -1,6 +1,73 @@
 # Data sources and downloads
 
-This document lists the data included in the repository and the data downloaded when an experiment needs them. All paths are relative to the repository root.
+This document lists the local inputs, public sources, and generated data used by BORO. Large raw inputs, downloaded collections, and pretrained weights are intentionally kept out of Git; the local snapshot used for the reported analyses is recorded in `data/manifest.json`. All paths below are relative to the repository root.
+
+## Obtaining and preparing inputs
+
+Run these commands from the repository root after installing the environment described in `docs/reproducibility.md`.
+
+`download_data.py` covers the public resources that have stable direct download endpoints:
+
+```bash
+# All supported BEIR collections and intfloat/e5-small-v2.
+python scripts/download_data.py --resource all
+
+# A selected set of BEIR collections or only the E5 files.
+python scripts/download_data.py --resource beir --datasets scifact fiqa
+python scripts/download_data.py --resource e5
+
+# Show the planned actions without downloading, extracting, or writing files.
+python scripts/download_data.py --resource all --dry-run
+```
+
+The BEIR command writes archives and extracted collections below `data/raw/ir`. The E5 command writes the model files below `data/pretrained/e5`. Existing files are skipped. The downloader prints a SHA-256 digest for each newly downloaded file, but it does not rewrite the checked-in snapshot manifest.
+
+`prepare_data.py` handles the derived inputs used by the experiments:
+
+```bash
+# ADE split files for one or more seeds.
+python scripts/prepare_data.py --task ade --seeds 20260417
+
+# Deterministic controlled datasets from experiments/controlled/config.json.
+python scripts/prepare_data.py --task controlled --seeds 7103 7121
+
+# PrSM feature cache from the local XML files and feature models.
+python scripts/prepare_data.py --task prsm
+
+# BEIR directory preparation; missing collections are downloaded through the same endpoint.
+python scripts/prepare_data.py --task ir --ir-datasets scifact
+
+# Preview all available preparation actions without writing or downloading.
+python scripts/prepare_data.py --task all --dry-run
+```
+
+ADE preparation requires the local `data/raw/ade/train.jsonl` and `test.jsonl`. PrSM preparation requires the local candidate XML files, the two file manifests under `data/processed/prsm`, and the feature models under `data/pretrained/prsm`. The controlled task is generated locally from the committed configuration. Use `--task all` only after the required ADE and PrSM inputs are available. Existing derived outputs are skipped rather than overwritten; remove a target yourself when a rebuild is intended.
+
+## Version and SHA-256 manifest
+
+`data/manifest.json` uses schema `boro-data-manifest-v1` and currently labels the snapshot `boro-paper-snapshot-2026-10-18`. Each entry records a project-relative path, category, byte size, and SHA-256 digest. The current snapshot covers files under `data/raw`, `data/processed`, `data/pretrained`, and `data/source`; the manifest file itself is excluded. The manifest is a record of the data used for a result set, so replacing an input requires a new snapshot and a new manifest commit.
+
+To verify the complete manifest without downloading anything:
+
+```bash
+python - <<'PY'
+import hashlib
+import json
+from pathlib import Path
+
+root = Path('.')
+manifest = json.loads((root / 'data/manifest.json').read_text())
+for item in manifest['files']:
+    path = root / item['path']
+    digest = hashlib.sha256()
+    with path.open('rb') as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b''):
+            digest.update(block)
+    if path.stat().st_size != item['size_bytes'] or digest.hexdigest() != item['sha256']:
+        raise SystemExit(f'checksum mismatch: {item["path"]}')
+print(f"verified {len(manifest['files'])} files")
+PY
+```
 
 ## ADE detection
 

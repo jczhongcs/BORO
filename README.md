@@ -4,9 +4,44 @@ This repository contains the BORO code, experiment configurations, source tables
 
 ## Data and downloads
 
-[`docs/data_sources.md`](docs/data_sources.md) lists the data included in this checkout and the collections downloaded when an experiment needs them. The PrSM XML files are TopPIC-derived candidate files; the original vendor mass-spectrometry files are not included.
+Large raw inputs, downloaded collections, and pretrained weights are not tracked in Git. [`docs/data_sources.md`](docs/data_sources.md) lists their sources, expected paths, and preparation steps. The local data snapshot used for the current analyses is recorded in [`data/manifest.json`](data/manifest.json); it stores file sizes and SHA-256 digests for files under `data/raw`, `data/processed`, `data/pretrained`, and `data/source`.
 
-The ADE, PrSM, and controlled analyses use the local data and outputs under `data` and `results`. The IR experiments need the BEIR collections listed in the data-source document; the loader downloads a missing collection from the BEIR endpoint.
+Run the following commands from the repository root after installing the environment in [`docs/reproducibility.md`](docs/reproducibility.md).
+
+### Download public resources
+
+`download_data.py` fetches the supported BEIR collections and the E5 model files. It does not fetch the ADE or PrSM inputs, whose exact local files and access conditions are described in the data-source document.
+
+```bash
+# Download all supported BEIR collections and intfloat/e5-small-v2.
+python scripts/download_data.py --resource all
+
+# Download only the collections needed for an experiment.
+python scripts/download_data.py --resource beir --datasets scifact fiqa
+python scripts/download_data.py --resource e5
+
+# Preview downloads and extraction without network or filesystem changes.
+python scripts/download_data.py --resource all --dry-run
+```
+
+### Prepare derived inputs
+
+`prepare_data.py` generates the derived ADE and controlled splits, builds the PrSM feature cache from local XML files and feature models, and prepares BEIR directories. Existing outputs are skipped rather than overwritten.
+
+```bash
+python scripts/prepare_data.py --task ade --seeds 20260417
+python scripts/prepare_data.py --task controlled --seeds 7103 7121
+python scripts/prepare_data.py --task prsm
+python scripts/prepare_data.py --task ir --ir-datasets scifact
+
+# Run every preparation family for which the required inputs are available.
+python scripts/prepare_data.py --task all
+
+# Preview all preparation actions without downloading or writing files.
+python scripts/prepare_data.py --task all --dry-run
+```
+
+The manifest is a snapshot rather than a live index. To check an individual entry, compute `shasum -a 256 <path>` and compare it with the corresponding `sha256` value in `data/manifest.json`. The manifest excludes itself from the hash list.
 
 ## Reproduction
 
